@@ -1,0 +1,4 @@
+{
+  "_formato": "id -> {nombre, fuente, por100: {kcal, prot, hc, azucar, grasa, sat, fibra, sal}, peso_unidad_g?, comestible_pct?, notas?}",
+  "alimentos": {}
+}
