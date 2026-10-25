@@ -2,6 +2,8 @@
 
 Registro crudo de las comidas diarias de Ysst, para integrarlo después en Higía (`DreiSup/HIGIA`). Contexto completo del proyecto en `docs/exportacion-2026-10-25.md`.
 
+**El modelo de datos está en `docs/modelo-de-datos.md` y manda sobre cualquier otro documento.** El catálogo y los días actuales siguen el formato anterior hasta que se migren.
+
 Fase de recogida de datos (60-90 días) sin intervenir: no valores ni aconsejes sobre la dieta salvo que se pida. Restricciones a vigilar: gluten y lactosa.
 
 ## Registrar una comida

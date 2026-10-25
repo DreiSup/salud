@@ -12,6 +12,8 @@ pendientes.md                     huecos y datos por confirmar
 docs/exportacion-2026-10-25.md    exportación original del proyecto Salud (11/08–22/10)
 ```
 
+> **El modelo de datos definitivo está en [`docs/modelo-de-datos.md`](docs/modelo-de-datos.md).** Lo que sigue describe el formato actual, pendiente de migrar.
+
 ## Formato de un día
 
 Es el formato que usa `scripts/calcular.py`, así que cualquier día se puede recalcular:
