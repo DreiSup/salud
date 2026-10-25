@@ -1,4 +1,633 @@
 {
-  "_formato": "id -> {nombre, fuente, por100: {kcal, prot, hc, azucar, grasa, sat, fibra, sal}, peso_unidad_g?, comestible_pct?, notas?}",
-  "alimentos": {}
+  "_formato": "id -> {nombre, fuente, por100: {kcal, prot, hc, azucar, grasa, sat, fibra, sal}, notas?}. Vacío = no consta en la fuente.",
+  "alimentos": {
+    "huevo-campero-l": {
+      "nombre": "Huevos camperos Círculo de Calidad (Carrefour)",
+      "fuente": "bedca",
+      "por100": {
+        "kcal": 141.0,
+        "prot": 12.7,
+        "hc": 0.68,
+        "grasa": 9.7,
+        "sat": 2.8,
+        "fibra": 0.0,
+        "sal": 0.36
+      },
+      "notas": "Base comestible; sin lactosa ni gluten"
+    },
+    "bacon-lonchas-carrefour-sg": {
+      "nombre": "Bacon lonchas Carrefour El Mercado sin gluten 200 g",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 263.0,
+        "prot": 14.0,
+        "hc": 1.0,
+        "grasa": 23.0,
+        "sat": 7.8,
+        "fibra": 0.0,
+        "sal": 2.2
+      },
+      "notas": "Lactosa sí, gluten no"
+    },
+    "mozzarella-rallada-carrefour": {
+      "nombre": "Mozzarella rallada Carrefour 200 g",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 299.0,
+        "prot": 25.0,
+        "hc": 2.6,
+        "grasa": 21.0,
+        "sat": 14.0,
+        "sal": 1.3
+      },
+      "notas": "Lactosa sí"
+    },
+    "queso-4quesos-dia": {
+      "nombre": "Queso rallado 4 quesos Dia Láctea 200 g",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 370.0,
+        "prot": 26.0,
+        "hc": 1.9,
+        "azucar": 0.0,
+        "grasa": 30.0,
+        "sat": 21.0,
+        "sal": 1.6
+      },
+      "notas": "Lactosa sí"
+    },
+    "carne-picada-vacuno-cdc": {
+      "nombre": "Preparado carne picada vacuno Círculo de Calidad (Carrefour)",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 209.0,
+        "prot": 20.3,
+        "hc": 0.5,
+        "grasa": 14.5,
+        "sat": 7.2,
+        "fibra": 0.0,
+        "sal": 1.0
+      }
+    },
+    "burger-meat-mercadona": {
+      "nombre": "Burger meat vacuno 82 % (Mercadona, F. Martínez)",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 182.0,
+        "prot": 17.0,
+        "hc": 0.9,
+        "azucar": 0.8,
+        "grasa": 12.0,
+        "sat": 5.0,
+        "sal": 0.3
+      },
+      "notas": "Harina de arroz, fibra de guisante, sulfitos E-221; sin gluten"
+    },
+    "cacahuete-collaret-consum": {
+      "nombre": "Cacahuete tostado Collaret (Consum)",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 587.0,
+        "prot": 24.0,
+        "hc": 21.0,
+        "grasa": 50.0,
+        "sat": 7.7,
+        "fibra": 8.4,
+        "sal": 0.01
+      },
+      "notas": "Con cáscara: 75 % comestible"
+    },
+    "cacahuete-cascara-family-cash": {
+      "nombre": "Cacahuete cáscara 2 granos tostado (Family Cash) 3 kg",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 612.0,
+        "prot": 23.8,
+        "hc": 12.7,
+        "azucar": 4.1,
+        "grasa": 50.3,
+        "sat": 8.5,
+        "fibra": 6.9,
+        "sal": 0.01
+      },
+      "notas": "Valores de grano; trazas de gluten, leche, sésamo, soja, mostaza, frutos de cáscara, sulfitos"
+    },
+    "cacahuete-lidl": {
+      "nombre": "Cacahuetes tostados Lidl ~375 g",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 624.0,
+        "prot": 27.1,
+        "hc": 9.8,
+        "azucar": 5.1,
+        "grasa": 51.2,
+        "sat": 7.0,
+        "fibra": 7.9,
+        "sal": 0.05
+      },
+      "notas": "Parte comestible"
+    },
+    "frankfurt-lidl": {
+      "nombre": "Frankfurt ahumada Lidl 1 kg",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 278.0,
+        "prot": 12.3,
+        "hc": 2.0,
+        "azucar": 1.0,
+        "grasa": 24.5,
+        "sat": 11.0,
+        "fibra": 0.2,
+        "sal": 1.8
+      },
+      "notas": "1 ud ≈ 100 g"
+    },
+    "yogur-natural-andros": {
+      "nombre": "Yogur natural Andros La Serna 125 g",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 124.0,
+        "prot": 2.9,
+        "hc": 5.7,
+        "azucar": 5.7,
+        "grasa": 10.0,
+        "sat": 6.5,
+        "sal": 0.1
+      },
+      "notas": "Lactosa sí"
+    },
+    "yogur-griego-carrefour-extra": {
+      "nombre": "Yogur griego natural Carrefour Extra 6×125 g",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 125.0,
+        "prot": 4.0,
+        "hc": 5.0,
+        "grasa": 10.0,
+        "sat": 7.0,
+        "fibra": 0.0,
+        "sal": 0.0
+      },
+      "notas": "Lactosa sí"
+    },
+    "queso-brine-lidl": {
+      "nombre": "Cheese in Brine Lidl 1800 g",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 294.0,
+        "prot": 14.2,
+        "hc": 0.6,
+        "azucar": 0.6,
+        "grasa": 26.1,
+        "sat": 15.7,
+        "fibra": 0.0,
+        "sal": 2.4
+      },
+      "notas": "Escurrido; lactosa <0.1 g"
+    },
+    "queso-cabra-lidl": {
+      "nombre": "Queso de cabra en salmuera Lidl (lata)",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 270.0,
+        "prot": 15.0,
+        "hc": 0.7,
+        "azucar": 0.7,
+        "grasa": 23.0,
+        "sat": 16.1,
+        "fibra": 0.0,
+        "sal": 2.2
+      },
+      "notas": "Escurrido"
+    },
+    "rulo-cabra": {
+      "nombre": "Rulo de cabra",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 264.0,
+        "prot": 18.5,
+        "hc": 0.0,
+        "grasa": 21.1,
+        "sat": 14.6,
+        "fibra": 0.0,
+        "sal": 1.17
+      },
+      "notas": "Lactosa sí"
+    },
+    "atun-aceite-oliva-carrefour": {
+      "nombre": "Atún claro en aceite de oliva Carrefour, pack 8",
+      "fuente": "estimado",
+      "por100": {
+        "kcal": 200.0,
+        "prot": 25.0,
+        "hc": 0.0,
+        "grasa": 10.0,
+        "sat": 1.7,
+        "sal": 1.2
+      },
+      "notas": "Lata 70 g, 52 g escurrido"
+    },
+    "tomate-frito-sin-azucar-carrefour": {
+      "nombre": "Tomate frito sin azúcar, reducido en sal, Carrefour",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 74.0,
+        "prot": 1.2,
+        "hc": 8.7,
+        "grasa": 3.8
+      },
+      "notas": "Proteína estimada (web daba 6.0)"
+    },
+    "pasas-sultanas-consum": {
+      "nombre": "Pasas sultanas Consum 300 g",
+      "fuente": "estimado",
+      "por100": {
+        "kcal": 322.0,
+        "prot": 2.7,
+        "hc": 71.0,
+        "azucar": 71.0,
+        "grasa": 1.0,
+        "sat": 0.3,
+        "fibra": 9.6,
+        "sal": 0.04
+      },
+      "notas": "OpenFoodFacts"
+    },
+    "ciruela-sin-hueso-consum": {
+      "nombre": "Ciruelas sin hueso Consum 300 g",
+      "fuente": "estimado",
+      "por100": {
+        "kcal": 221.0,
+        "prot": 1.8,
+        "hc": 49.0,
+        "azucar": 35.0,
+        "grasa": 0.7,
+        "fibra": 6.5
+      },
+      "notas": "~10 g/ud"
+    },
+    "miel-flores-eco-carrefour": {
+      "nombre": "Miel de flores eco Carrefour Bio 500 g",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 331.0,
+        "prot": 0.0,
+        "hc": 82.9,
+        "grasa": 0.0,
+        "sat": 0.0
+      },
+      "notas": "Cucharadita ≈ 7 g"
+    },
+    "empanada-ternera-aloloco-carrefour": {
+      "nombre": "Empanadas ternera Aloloco (Carrefour) 160 g",
+      "fuente": "etiqueta",
+      "por100": {
+        "kcal": 225.0,
+        "prot": 10.0,
+        "hc": 30.0,
+        "grasa": 6.1
+      }
+    },
+    "arroz-blanco-cocido": {
+      "nombre": "Arroz blanco cocido",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 130.0,
+        "prot": 2.7,
+        "hc": 28.0,
+        "grasa": 0.3
+      }
+    },
+    "garbanzos-cocidos-bote": {
+      "nombre": "Garbanzos cocidos de bote, escurridos",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 139.0,
+        "prot": 7.25,
+        "hc": 22.5,
+        "grasa": 2.14
+      }
+    },
+    "aguacate": {
+      "nombre": "Aguacate crudo",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 160.0,
+        "prot": 2.0,
+        "hc": 8.53,
+        "grasa": 14.7,
+        "sat": 2.13,
+        "fibra": 6.7,
+        "sal": 0.018
+      },
+      "notas": "Medio mediano pelado ≈ 60 g"
+    },
+    "tomate-cherry": {
+      "nombre": "Tomate cherry",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 18.0,
+        "prot": 0.88,
+        "hc": 3.89,
+        "grasa": 0.2,
+        "sat": 0.028,
+        "fibra": 1.2,
+        "sal": 0.013
+      }
+    },
+    "tomate": {
+      "nombre": "Tomate",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 18.0,
+        "prot": 0.9,
+        "hc": 3.9,
+        "grasa": 0.2
+      },
+      "notas": "Mediano 123 g, grande 182 g"
+    },
+    "lechuga-romana": {
+      "nombre": "Lechuga romana",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 17.0,
+        "prot": 1.23,
+        "hc": 3.29,
+        "grasa": 0.3,
+        "sat": 0.039,
+        "fibra": 2.1,
+        "sal": 0.02
+      }
+    },
+    "cebolla": {
+      "nombre": "Cebolla",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 40.0,
+        "prot": 1.1,
+        "hc": 9.3,
+        "grasa": 0.1
+      },
+      "notas": "Mediana ≈ 110 g"
+    },
+    "pimiento-rojo": {
+      "nombre": "Pimiento rojo",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 31.0,
+        "prot": 1.0,
+        "hc": 6.0,
+        "grasa": 0.3
+      }
+    },
+    "pimiento-verde": {
+      "nombre": "Pimiento verde",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 20.0,
+        "prot": 0.86,
+        "hc": 4.64,
+        "grasa": 0.17
+      },
+      "notas": "Normal ≈ 100 g"
+    },
+    "calabacin": {
+      "nombre": "Calabacín",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 17.0,
+        "prot": 1.2,
+        "hc": 3.1,
+        "grasa": 0.3
+      }
+    },
+    "patata-cruda": {
+      "nombre": "Patata cruda",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 77.0,
+        "prot": 2.05,
+        "hc": 17.5,
+        "grasa": 0.09,
+        "sat": 0.025,
+        "fibra": 2.1,
+        "sal": 0.015
+      }
+    },
+    "zanahoria-cruda": {
+      "nombre": "Zanahoria cruda",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 41.0,
+        "prot": 0.93,
+        "hc": 9.58,
+        "grasa": 0.24,
+        "sat": 0.032,
+        "fibra": 2.8,
+        "sal": 0.17
+      }
+    },
+    "sandia": {
+      "nombre": "Sandía",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 30.0,
+        "prot": 0.61,
+        "hc": 7.55,
+        "grasa": 0.15
+      },
+      "notas": "60 % comestible"
+    },
+    "melon": {
+      "nombre": "Melón",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 34.0,
+        "prot": 0.8,
+        "hc": 7.9,
+        "grasa": 0.09
+      },
+      "notas": "60 % comestible"
+    },
+    "datil-deglet-noor": {
+      "nombre": "Dátil seco Deglet Noor",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 282.0,
+        "prot": 2.45,
+        "hc": 75.0,
+        "grasa": 0.39
+      },
+      "notas": "~8 g/ud"
+    },
+    "queso-fresco-burgos": {
+      "nombre": "Queso fresco tipo Burgos",
+      "fuente": "estimado",
+      "por100": {
+        "kcal": 174.0,
+        "prot": 12.4,
+        "hc": 3.3,
+        "grasa": 13.0
+      }
+    },
+    "anchoa-aceite": {
+      "nombre": "Anchoas en aceite",
+      "fuente": "estimado",
+      "por100": {
+        "kcal": 210.0,
+        "prot": 29.0,
+        "hc": 0.0,
+        "grasa": 10.0
+      }
+    },
+    "aceite-oliva": {
+      "nombre": "Aceite de oliva / AOVE",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 884.0,
+        "prot": 0.0,
+        "hc": 0.0,
+        "azucar": 0.0,
+        "grasa": 100.0,
+        "sat": 13.8,
+        "fibra": 0.0,
+        "sal": 0.0
+      }
+    },
+    "carne-picada-vacuno-family-cash": {
+      "nombre": "Carne picada 100 % vacuno Family Cash (mostrador)",
+      "fuente": "estimado",
+      "por100": {
+        "kcal": 170,
+        "prot": 20,
+        "hc": 0,
+        "grasa": 10
+      },
+      "notas": "Ref. Eroski; rango entre marcas 164-209 kcal. Falta etiqueta",
+      "solo_estimacion": true
+    },
+    "queso-4quesos-family-cash": {
+      "nombre": "Queso rallado 4 quesos Family Cash",
+      "fuente": "estimado",
+      "por100": {
+        "kcal": 328,
+        "prot": 18,
+        "hc": 5.5,
+        "grasa": 26
+      },
+      "notas": "Falta etiqueta",
+      "solo_estimacion": true
+    },
+    "salsa-soja-trigo": {
+      "nombre": "Salsa de soja (con trigo)",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 53,
+        "prot": 8.1,
+        "hc": 4.9,
+        "grasa": 0.6,
+        "sal": 14.1
+      },
+      "notas": "Gluten sí",
+      "solo_estimacion": true
+    },
+    "anacardos-tostados-sin-sal": {
+      "nombre": "Anacardos tostados sin sal",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 574,
+        "prot": 15.3,
+        "hc": 29.4,
+        "azucar": 5.9,
+        "grasa": 46.4,
+        "sat": 9.2,
+        "fibra": 3.3
+      },
+      "solo_estimacion": true
+    },
+    "platano": {
+      "nombre": "Plátano pelado",
+      "fuente": "usda",
+      "por100": {
+        "kcal": 89,
+        "prot": 1.09,
+        "hc": 20.2,
+        "azucar": 12.2,
+        "grasa": 0.33,
+        "fibra": 2.6
+      },
+      "notas": "Mediano pelado ≈ 118 g",
+      "solo_estimacion": true
+    },
+    "empanada-pollo-thai-carrefour": {
+      "nombre": "Empanada pollo thai Carrefour",
+      "fuente": "estimado",
+      "por100": {
+        "kcal": 240,
+        "prot": 9,
+        "hc": 30,
+        "grasa": 9
+      },
+      "notas": "Valor nominal; 70 g/ud",
+      "solo_estimacion": true
+    }
+  },
+  "lotes": {
+    "lote-albondigas-2026-08": {
+      "nombre": "Albóndigas (ago 2026)",
+      "fuente": "lote",
+      "composicion": "900 g carne picada vacuno Carrefour + 150 g patata + 70 g zanahoria + 60.75 g huevo + ~30 g aceite absorbido en fritura → 55 ud",
+      "por100": {
+        "kcal": 262.5,
+        "prot": 22.1,
+        "hc": 4.9,
+        "grasa": 17.8
+      }
+    },
+    "lote-guiso-mercadona-2026-08": {
+      "nombre": "Guiso Mercadona (ago 2026)",
+      "fuente": "lote",
+      "composicion": "1 kg carne picada Mercadona + 1 cebolla mediana (~110 g) + 2 pimientos verdes",
+      "por100": {
+        "kcal": 150.7,
+        "prot": 13.7,
+        "hc": 2.3,
+        "grasa": 9.5
+      },
+      "notas": "La carne resultó ser burger meat 82 % (etiqueta 22/10); calculado con ficha estimada casi idéntica"
+    },
+    "lote-guiso-carrefour-2026-09": {
+      "nombre": "Guiso Carrefour (sept 2026)",
+      "fuente": "lote",
+      "composicion": "900 g carne-picada-vacuno-cdc + 100 g pimiento verde + 110 g cebolla + 123 g tomate → 1183 g cocinado nominal",
+      "por100": {
+        "kcal": 166.3,
+        "prot": 15.7,
+        "hc": 2.0,
+        "grasa": 11.1
+      }
+    }
+  },
+  "recetas": {
+    "tortilla-de-siempre": {
+      "nombre": "Tortilla de siempre",
+      "items": [
+        {
+          "catalogo_id": "huevo-campero-l",
+          "gramos": 239.36,
+          "nota": "4 ud L, 88 % comestible"
+        },
+        {
+          "catalogo_id": "bacon-lonchas-carrefour-sg",
+          "gramos": 50,
+          "nota": "3 lonchas de 16.7 g"
+        },
+        {
+          "catalogo_id": "mozzarella-rallada-carrefour",
+          "gramos": 30,
+          "nota": "30 g por defecto"
+        }
+      ]
+    }
+  }
 }

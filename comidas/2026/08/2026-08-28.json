@@ -1,0 +1,137 @@
+{
+  "dia": "2026-08-28",
+  "estado": "Incompleto: falta empanada de ternera",
+  "origen": "exportación del proyecto Salud, 25/10/2026",
+  "comidas": [
+    {
+      "numero": 1,
+      "comida": "Tortilla con frankfurt",
+      "items": [
+        {
+          "nombre": "Huevo campero L",
+          "gramos": 239.36,
+          "catalogo_id": "huevo-campero-l",
+          "fuente": "bedca",
+          "por100": {
+            "kcal": 141.0,
+            "prot": 12.7,
+            "hc": 0.68,
+            "grasa": 9.7,
+            "sat": 2.8,
+            "fibra": 0.0,
+            "sal": 0.36
+          }
+        },
+        {
+          "nombre": "Bacon lonchas Carrefour (2)",
+          "gramos": 33.4,
+          "catalogo_id": "bacon-lonchas-carrefour-sg",
+          "fuente": "etiqueta",
+          "por100": {
+            "kcal": 263.0,
+            "prot": 14.0,
+            "hc": 1.0,
+            "grasa": 23.0,
+            "sat": 7.8,
+            "fibra": 0.0,
+            "sal": 2.2
+          }
+        },
+        {
+          "nombre": "Mozzarella rallada Carrefour",
+          "gramos": 30.0,
+          "catalogo_id": "mozzarella-rallada-carrefour",
+          "fuente": "etiqueta",
+          "por100": {
+            "kcal": 299.0,
+            "prot": 25.0,
+            "hc": 2.6,
+            "grasa": 21.0,
+            "sat": 14.0,
+            "sal": 1.3
+          }
+        },
+        {
+          "nombre": "Frankfurt Lidl",
+          "gramos": 100.0,
+          "catalogo_id": "frankfurt-lidl",
+          "fuente": "etiqueta",
+          "por100": {
+            "kcal": 278.0,
+            "prot": 12.3,
+            "hc": 2.0,
+            "azucar": 1.0,
+            "grasa": 24.5,
+            "sat": 11.0,
+            "fibra": 0.2,
+            "sal": 1.8
+          }
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "comida": "Guiso Mercadona con arroz y aguacate",
+      "items": [
+        {
+          "nombre": "Guiso Mercadona (lote)",
+          "gramos": 300.0,
+          "catalogo_id": "lote-guiso-mercadona-2026-08",
+          "fuente": "lote",
+          "por100": {
+            "kcal": 150.7,
+            "prot": 13.7,
+            "hc": 2.3,
+            "grasa": 9.5
+          }
+        },
+        {
+          "nombre": "Arroz blanco cocido",
+          "gramos": 100.0,
+          "catalogo_id": "arroz-blanco-cocido",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 130.0,
+            "prot": 2.7,
+            "hc": 28.0,
+            "grasa": 0.3
+          }
+        },
+        {
+          "nombre": "Aguacate",
+          "gramos": 60.0,
+          "catalogo_id": "aguacate",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 160.0,
+            "prot": 2.0,
+            "hc": 8.53,
+            "grasa": 14.7,
+            "sat": 2.13,
+            "fibra": 6.7,
+            "sal": 0.018
+          }
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "comida": "Empanadas Carrefour (incompleto)",
+      "items": [
+        {
+          "nombre": "Empanada pollo thai",
+          "gramos": 70.0,
+          "catalogo_id": "empanada-pollo-thai-carrefour",
+          "fuente": "estimado",
+          "fuente_detalle": "valor nominal",
+          "por100": {
+            "kcal": 240,
+            "prot": 9,
+            "hc": 30,
+            "grasa": 9
+          }
+        }
+      ]
+    }
+  ]
+}

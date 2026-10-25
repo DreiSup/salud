@@ -1,0 +1,172 @@
+{
+  "dia": "2026-10-20",
+  "estado": "Completo",
+  "origen": "exportación del proyecto Salud, 25/10/2026",
+  "comidas": [
+    {
+      "numero": 1,
+      "comida": "Carne huevos y soja",
+      "items": [
+        {
+          "nombre": "Burger meat Mercadona",
+          "gramos": 120.0,
+          "catalogo_id": "burger-meat-mercadona",
+          "fuente": "etiqueta",
+          "por100": {
+            "kcal": 182.0,
+            "prot": 17.0,
+            "hc": 0.9,
+            "azucar": 0.8,
+            "grasa": 12.0,
+            "sat": 5.0,
+            "sal": 0.3
+          }
+        },
+        {
+          "nombre": "Huevo campero L",
+          "gramos": 239.36,
+          "catalogo_id": "huevo-campero-l",
+          "fuente": "bedca",
+          "por100": {
+            "kcal": 141.0,
+            "prot": 12.7,
+            "hc": 0.68,
+            "grasa": 9.7,
+            "sat": 2.8,
+            "fibra": 0.0,
+            "sal": 0.36
+          }
+        },
+        {
+          "nombre": "Salsa de soja (con trigo)",
+          "gramos": 20.0,
+          "catalogo_id": "salsa-soja-trigo",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 53,
+            "prot": 8.1,
+            "hc": 4.9,
+            "grasa": 0.6,
+            "sal": 14.1
+          }
+        },
+        {
+          "nombre": "Aceite de oliva",
+          "gramos": 7.5,
+          "catalogo_id": "aceite-oliva",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 884.0,
+            "prot": 0.0,
+            "hc": 0.0,
+            "azucar": 0.0,
+            "grasa": 100.0,
+            "sat": 13.8,
+            "fibra": 0.0,
+            "sal": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "comida": "Carne y arroz",
+      "items": [
+        {
+          "nombre": "Carne picada 100% vacuno Family Cash",
+          "gramos": 220.0,
+          "catalogo_id": "carne-picada-vacuno-family-cash",
+          "fuente": "estimado",
+          "por100": {
+            "kcal": 170,
+            "prot": 20,
+            "hc": 0,
+            "grasa": 10
+          }
+        },
+        {
+          "nombre": "Arroz blanco cocido",
+          "gramos": 180.0,
+          "catalogo_id": "arroz-blanco-cocido",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 130.0,
+            "prot": 2.7,
+            "hc": 28.0,
+            "grasa": 0.3
+          }
+        },
+        {
+          "nombre": "Aceite de oliva",
+          "gramos": 7.5,
+          "catalogo_id": "aceite-oliva",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 884.0,
+            "prot": 0.0,
+            "hc": 0.0,
+            "azucar": 0.0,
+            "grasa": 100.0,
+            "sat": 13.8,
+            "fibra": 0.0,
+            "sal": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "comida": "Anacardos y plátano",
+      "items": [
+        {
+          "nombre": "Anacardos tostados sin sal",
+          "gramos": 80.0,
+          "catalogo_id": "anacardos-tostados-sin-sal",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 574,
+            "prot": 15.3,
+            "hc": 29.4,
+            "azucar": 5.9,
+            "grasa": 46.4,
+            "sat": 9.2,
+            "fibra": 3.3
+          }
+        },
+        {
+          "nombre": "Plátano mediano pelado",
+          "gramos": 118.0,
+          "catalogo_id": "platano",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 89,
+            "prot": 1.09,
+            "hc": 20.2,
+            "azucar": 12.2,
+            "grasa": 0.33,
+            "fibra": 2.6
+          }
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "comida": "Infusiones con miel",
+      "items": [
+        {
+          "nombre": "Miel flores eco Carrefour",
+          "gramos": 20.0,
+          "catalogo_id": "miel-flores-eco-carrefour",
+          "fuente": "etiqueta",
+          "por100": {
+            "kcal": 331.0,
+            "prot": 0.0,
+            "hc": 82.9,
+            "grasa": 0.0,
+            "sat": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

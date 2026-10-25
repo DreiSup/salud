@@ -1,0 +1,76 @@
+{
+  "dia": "2026-10-22",
+  "estado": "Parcial (solo comida 1)",
+  "origen": "exportación del proyecto Salud, 25/10/2026",
+  "comidas": [
+    {
+      "numero": 1,
+      "comida": "Carne huevos y cacahuetes",
+      "items": [
+        {
+          "nombre": "Burger meat Mercadona",
+          "gramos": 120.0,
+          "catalogo_id": "burger-meat-mercadona",
+          "fuente": "etiqueta",
+          "por100": {
+            "kcal": 182.0,
+            "prot": 17.0,
+            "hc": 0.9,
+            "azucar": 0.8,
+            "grasa": 12.0,
+            "sat": 5.0,
+            "sal": 0.3
+          }
+        },
+        {
+          "nombre": "Huevo campero L",
+          "gramos": 239.36,
+          "catalogo_id": "huevo-campero-l",
+          "fuente": "bedca",
+          "por100": {
+            "kcal": 141.0,
+            "prot": 12.7,
+            "hc": 0.68,
+            "grasa": 9.7,
+            "sat": 2.8,
+            "fibra": 0.0,
+            "sal": 0.36
+          }
+        },
+        {
+          "nombre": "Cacahuete cáscara Family Cash (75% de 90 g)",
+          "gramos_brutos": 90.0,
+          "comestible_pct": 75.0,
+          "catalogo_id": "cacahuete-cascara-family-cash",
+          "fuente": "etiqueta",
+          "por100": {
+            "kcal": 612.0,
+            "prot": 23.8,
+            "hc": 12.7,
+            "azucar": 4.1,
+            "grasa": 50.3,
+            "sat": 8.5,
+            "fibra": 6.9,
+            "sal": 0.01
+          }
+        },
+        {
+          "nombre": "Aceite de oliva",
+          "gramos": 7.5,
+          "catalogo_id": "aceite-oliva",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 884.0,
+            "prot": 0.0,
+            "hc": 0.0,
+            "azucar": 0.0,
+            "grasa": 100.0,
+            "sat": 13.8,
+            "fibra": 0.0,
+            "sal": 0.0
+          }
+        }
+      ]
+    }
+  ]
+}

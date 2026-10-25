@@ -1,0 +1,160 @@
+{
+  "dia": "2026-08-14",
+  "estado": "Completo",
+  "origen": "exportación del proyecto Salud, 25/10/2026",
+  "comidas": [
+    {
+      "numero": 1,
+      "comida": "Tortilla + ciruelas",
+      "items": [
+        {
+          "nombre": "Huevo campero L",
+          "gramos": 239.36,
+          "catalogo_id": "huevo-campero-l",
+          "fuente": "bedca",
+          "por100": {
+            "kcal": 141.0,
+            "prot": 12.7,
+            "hc": 0.68,
+            "grasa": 9.7,
+            "sat": 2.8,
+            "fibra": 0.0,
+            "sal": 0.36
+          }
+        },
+        {
+          "nombre": "Bacon lonchas Carrefour",
+          "gramos": 50.0,
+          "catalogo_id": "bacon-lonchas-carrefour-sg",
+          "fuente": "etiqueta",
+          "por100": {
+            "kcal": 263.0,
+            "prot": 14.0,
+            "hc": 1.0,
+            "grasa": 23.0,
+            "sat": 7.8,
+            "fibra": 0.0,
+            "sal": 2.2
+          }
+        },
+        {
+          "nombre": "Mozzarella rallada Carrefour",
+          "gramos": 30.0,
+          "catalogo_id": "mozzarella-rallada-carrefour",
+          "fuente": "etiqueta",
+          "por100": {
+            "kcal": 299.0,
+            "prot": 25.0,
+            "hc": 2.6,
+            "grasa": 21.0,
+            "sat": 14.0,
+            "sal": 1.3
+          }
+        },
+        {
+          "nombre": "Ciruela sin hueso Consum",
+          "gramos": 40.0,
+          "catalogo_id": "ciruela-sin-hueso-consum",
+          "fuente": "estimado",
+          "fuente_detalle": "OpenFoodFacts",
+          "por100": {
+            "kcal": 221.0,
+            "prot": 1.8,
+            "hc": 49.0,
+            "azucar": 35.0,
+            "grasa": 0.7,
+            "fibra": 6.5
+          }
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "comida": "Cacahuetes con cáscara y melón",
+      "items": [
+        {
+          "nombre": "Cacahuete Collaret (75% de 100 g)",
+          "gramos_brutos": 100.0,
+          "comestible_pct": 75.0,
+          "catalogo_id": "cacahuete-collaret-consum",
+          "fuente": "estimado",
+          "fuente_detalle": "OpenFoodFacts",
+          "por100": {
+            "kcal": 587.0,
+            "prot": 24.3733,
+            "grasa": 49.7467,
+            "hc": 21.2533
+          },
+          "por100_origen": "derivado de la exportación (difiere del catálogo actual)"
+        },
+        {
+          "nombre": "Melón (60% de 520 g)",
+          "gramos_brutos": 520.0,
+          "comestible_pct": 60.0,
+          "catalogo_id": "melon",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 34.0,
+            "prot": 0.8,
+            "hc": 7.9,
+            "grasa": 0.09
+          }
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "comida": "Albóndigas con arroz queso y garbanzos",
+      "items": [
+        {
+          "nombre": "Albóndigas (lote)",
+          "gramos": 163.0,
+          "catalogo_id": "lote-albondigas-2026-08",
+          "fuente": "lote",
+          "por100": {
+            "kcal": 262.5,
+            "prot": 22.1,
+            "hc": 4.9,
+            "grasa": 17.8
+          }
+        },
+        {
+          "nombre": "Arroz blanco cocido",
+          "gramos": 189.0,
+          "catalogo_id": "arroz-blanco-cocido",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 130.0,
+            "prot": 2.7,
+            "hc": 28.0,
+            "grasa": 0.3
+          }
+        },
+        {
+          "nombre": "Queso fresco tipo Burgos",
+          "gramos": 45.0,
+          "catalogo_id": "queso-fresco-burgos",
+          "fuente": "estimado",
+          "por100": {
+            "kcal": 174.0,
+            "prot": 12.4,
+            "hc": 3.3,
+            "grasa": 13.0
+          }
+        },
+        {
+          "nombre": "Garbanzos cocidos bote",
+          "gramos": 63.0,
+          "catalogo_id": "garbanzos-cocidos-bote",
+          "fuente": "usda",
+          "por100": {
+            "kcal": 139.0,
+            "prot": 7.25,
+            "hc": 22.5,
+            "grasa": 2.14
+          }
+        }
+      ]
+    }
+  ]
+}
