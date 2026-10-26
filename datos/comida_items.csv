@@ -144,3 +144,20 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-09-19-3,1,lote-carne-pimientos-2026-09,1,210,g,,cocido,bascula,15,,210 g comida carne,incertidumbre por la receta nominal
 2026-09-19-3,2,arroz-blanco-cocido,1,200,g,,cocido,bascula,5,,200 g arroz,
 2026-09-19-3,3,aguacate,1,100,g,,tal_cual,bascula,2,,100 g aguacate,
+2026-09-20-1,1,lote-carne-pimientos-2026-09,1,240,g,,cocido,bascula,15,,240 g comida carne,tanda del 18/09
+2026-09-20-1,2,arroz-blanco-cocido,1,150,g,,cocido,bascula,5,,150 g arroz,
+2026-09-21-1,1,huevo-campero-l,1,4,ud,,tal_cual,estimado,10,plancha,4 huevos camperos,
+2026-09-21-1,2,mozzarella-rallada-carrefour,1,20,g,,tal_cual,estimado,15,,20 g mozzarella,
+2026-09-21-1,3,carne-picada-vacuno-cdc,1,150,g,,tal_cual,estimado,10,plancha,150 g carne picada ternera (crudo),
+2026-09-21-1,4,aceite-oliva,1,20,g,,tal_cual,estimado,30,,20 g aceite (lo de siempre),
+2026-09-21-2,1,pata-pollo-asada,1,212,g,si,cocido,bascula,20,,212 g pata de pollo (con hueso),"peso con hueso, supuesto ya cocinado; 70 % comestible"
+2026-09-21-2,2,arroz-blanco-cocido,1,100,g,,cocido,bascula,5,,100 g arroz,
+2026-09-22-1,1,huevo-campero-l,1,2,ud,,tal_cual,estimado,10,plancha,2 huevos camperos,
+2026-09-22-1,2,mozzarella-rallada-carrefour,1,30,g,,tal_cual,estimado,15,,30 g mozzarella,
+2026-09-22-1,3,carne-picada-vacuno-cdc,1,160,g,,tal_cual,estimado,10,plancha,160 g carne picada ternera (crudo),
+2026-09-22-1,4,aceite-oliva,1,20,g,,tal_cual,estimado,30,,20 g aceite (lo de siempre),
+2026-09-22-2,1,arroz-blanco-cocido,1,210,g,,cocido,bascula,5,,210 g arroz,
+2026-09-22-2,2,lote-pollo-curry-2026-09,1,290,g,,cocido,bascula,30,,290 g pollo al curry,receta nominal
+2026-09-22-3,1,melon,1,490,g,si,tal_cual,bascula,10,,490 g melón,supuesto pesado con corteza (60 % comestible)
+2026-09-22-3,2,arandanos,1,50,g,,tal_cual,bascula,5,,50 g arándanos,
+2026-09-22-3,3,cacahuete-collaret-consum,1,60,g,,tal_cual,bascula,5,,60 g cacahuetes,marca supuesta
