@@ -15,6 +15,8 @@ Uso:
   python scripts/salud.py cerrar <fecha> <completo|parcial|incompleto> [nota]
   python scripts/salud.py dia [fecha]                 informe de un día (hoy por defecto)
   python scripts/salud.py resumen [desde] [hasta]     totales por día
+  python scripts/salud.py meta <nutriente> <min|-> <max|-> [--desde FECHA] [--nota TEXTO]
+  python scripts/salud.py metas [fecha]               metas vigentes ese día (hoy por defecto)
   python scripts/salud.py validar                     revisa todos los CSV
 
 El formato de los JSON de entrada está en docs/modelo-de-datos.md.
@@ -48,6 +50,7 @@ TABLAS = {
                      "estado", "origen_cantidad", "incertidumbre_pct", "preparacion", "nombre_registrado", "notas"],
     "item_valores": ["comida_id", "linea", "nutriente", "valor", "fuente"],
     "dias": ["fecha", "estado", "notas"],
+    "metas": ["desde", "nutriente", "min", "max", "notas"],
 }
 
 TIPOS_ALIMENTO = {"envasado", "fresco", "bebida", "suplemento", "lote", "receta"}
@@ -309,6 +312,7 @@ def validar(db):
     unicos("comida_items", ["comida_id", "linea"])
     unicos("item_valores", ["comida_id", "linea", "nutriente"])
     unicos("dias", ["fecha"])
+    unicos("metas", ["desde", "nutriente"])
 
     # alimentos
     for a in db.t["alimentos"]:
@@ -480,6 +484,18 @@ def validar(db):
             E(f"dias {d['fecha']}: fecha no es AAAA-MM-DD")
         if d["estado"] not in ESTADO_DIA:
             E(f"dias {d['fecha']}: estado {d['estado']!r} no válido")
+
+    for m in db.t["metas"]:
+        ctx = f"{m['desde']} {m['nutriente']}"
+        if not RE_FECHA.match(m["desde"]):
+            E(f"metas {ctx}: desde no es AAAA-MM-DD")
+        if m["nutriente"] not in db.dic:
+            E(f"metas {ctx}: nutriente desconocido")
+        mn, mx = numero("metas", m, "min", ctx, False, 0), numero("metas", m, "max", ctx, False, 0)
+        if mn is None and mx is None:
+            E(f"metas {ctx}: hace falta min, max o los dos")
+        if mn is not None and mx is not None and mn > mx:
+            E(f"metas {ctx}: min mayor que max")
 
     if not errores:
         for c in db.t["comidas"]:
@@ -760,6 +776,36 @@ def cmd_cerrar(db, fecha, estado, nota):
     guardar_si_valido(db, antes)
 
 
+def cmd_meta(db, nutriente, minimo, maximo, desde, nota):
+    """Fija la meta de un nutriente desde una fecha. Las anteriores se conservan como historial."""
+    antes, _ = validar(db)
+    limpio = lambda v: "" if v in (None, "", "-") else fmt(num(v))
+    fila = {"desde": desde, "nutriente": nutriente, "min": limpio(minimo), "max": limpio(maximo), "notas": nota}
+    db.t["metas"] = [m for m in db.t["metas"] if (m["desde"], m["nutriente"]) != (desde, nutriente)] + [fila]
+    db.t["metas"].sort(key=lambda m: (m["desde"], m["nutriente"]))
+    guardar_si_valido(db, antes)
+
+
+def metas_vigentes(db, fecha):
+    vig = {}
+    for m in sorted(db.t["metas"], key=lambda m: m["desde"]):
+        if m["desde"] <= fecha:
+            vig[m["nutriente"]] = m
+    return vig
+
+
+def cmd_metas(db, fecha):
+    vig = metas_vigentes(db, fecha)
+    if not vig:
+        return f"No hay metas vigentes el {fecha}."
+    out = [f"Metas vigentes el {fecha}:", "", "| Nutriente | Mín. | Máx. | Desde |", "|---|---|---|---|"]
+    for k, d_ in db.dic.items():
+        if k in vig:
+            m = vig[k]
+            out.append(f"| {d_['nombre']} ({d_['unidad']}) | {m['min'] or '—'} | {m['max'] or '—'} | {m['desde']} |")
+    return "\n".join(out)
+
+
 def cmd_buscar(db, texto):
     tokens = normalizar(texto).split()
     res = []
@@ -807,6 +853,9 @@ def main(argv=None):
     s = sub.add_parser("cerrar"); s.add_argument("fecha"); s.add_argument("estado", choices=sorted(ESTADO_DIA)); s.add_argument("nota", nargs="*")
     s = sub.add_parser("dia"); s.add_argument("fecha", nargs="?")
     s = sub.add_parser("resumen"); s.add_argument("desde", nargs="?"); s.add_argument("hasta", nargs="?")
+    s = sub.add_parser("meta"); s.add_argument("nutriente"); s.add_argument("min"); s.add_argument("max")
+    s.add_argument("--desde"); s.add_argument("--nota", default="")
+    s = sub.add_parser("metas"); s.add_argument("fecha", nargs="?")
     sub.add_parser("validar")
     a = p.parse_args(argv)
 
@@ -839,6 +888,11 @@ def main(argv=None):
             print(informe_dia(db, a.fecha or hoy()))
         elif a.cmd == "resumen":
             print(cmd_resumen(db, a.desde, a.hasta))
+        elif a.cmd == "meta":
+            cmd_meta(db, a.nutriente, a.min, a.max, a.desde or hoy(), a.nota)
+            print(cmd_metas(Base(), a.desde or hoy()))
+        elif a.cmd == "metas":
+            print(cmd_metas(db, a.fecha or hoy()))
         elif a.cmd == "validar":
             errores, avisos = validar(db)
             for x in avisos:

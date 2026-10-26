@@ -1,0 +1,10 @@
+desde,nutriente,min,max,notas
+2026-08-11,azucar,,90,Ingesta de referencia UE (azúcares totales)
+2026-08-11,cafeina,,400,EFSA
+2026-08-11,fibra,25,,EFSA
+2026-08-11,grasa,45,85,EFSA: 20-35 % de la energía a ~2000 kcal
+2026-08-11,hc,130,250,Claude: encaja con las kcal y la proteína de Ysst
+2026-08-11,kcal,1800,2200,Ysst (26/10/2026)
+2026-08-11,prot,150,200,Ysst (26/10/2026)
+2026-08-11,sal,,5,OMS
+2026-08-11,sat,,22,OMS: <10 % de la energía

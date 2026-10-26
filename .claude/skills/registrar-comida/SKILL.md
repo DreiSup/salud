@@ -159,3 +159,4 @@ Usa el selector de opciones cuando la respuesta sea una elección cerrada.
 - `python scripts/salud.py resumen [desde] [hasta]`: totales por día.
 - `python scripts/salud.py anular <comida_id> <motivo>`: para un error, en vez de borrar.
 - `python scripts/salud.py validar`: revisa todos los CSV. Debe dar 0 errores antes de cada commit.
+- `python scripts/salud.py meta <nutriente> <min|-> <max|-> [--desde FECHA] [--nota TEXTO]`: cambia una meta de la web (`datos/metas.csv`) cuando Ysst lo pida. `metas [fecha]` muestra las vigentes.

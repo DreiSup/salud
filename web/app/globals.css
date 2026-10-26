@@ -1,0 +1,73 @@
+/* Tokens del prototipo de Claude Design (estilo Apple: Salud, Fitness). */
+:root {
+  --bg: #f2f2f7; --card: #ffffff; --label: #000000; --label2: rgba(60, 60, 67, .64); --label3: rgba(60, 60, 67, .34);
+  --sep: rgba(60, 60, 67, .14); --fill: rgba(120, 120, 128, .12); --fill2: rgba(120, 120, 128, .26); --band: rgba(120, 120, 128, .14);
+  --ok: #34c759; --ok-t: #248a3d; --warn: #ffcc00; --warn-t: #a05a00; --over: #ff3b30; --over-t: #d70015;
+  --neutral: #aeaeb2; --accent: #007aff; --glass: rgba(242, 242, 247, .74); --onaccent: #ffffff;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000; --card: #1c1c1e; --label: #ffffff; --label2: rgba(235, 235, 245, .62); --label3: rgba(235, 235, 245, .32);
+    --sep: rgba(84, 84, 88, .55); --fill: rgba(118, 118, 128, .24); --fill2: rgba(118, 118, 128, .42); --band: rgba(118, 118, 128, .22);
+    --ok: #30d158; --ok-t: #30d158; --warn: #ffd60a; --warn-t: #ffd60a; --over: #ff453a; --over-t: #ff6961;
+    --neutral: #636366; --accent: #0a84ff; --glass: rgba(22, 22, 24, .74); --onaccent: #ffffff;
+  }
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--label); }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+button { font-family: inherit; color: inherit; }
+
+.redondo { font-family: ui-rounded, -apple-system, "SF Pro Rounded", system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+.tab { font-variant-numeric: tabular-nums; }
+.l2 { color: var(--label2); }
+.l3 { color: var(--label3); }
+
+.marco { min-height: 100vh; display: flex; flex-direction: column; background: var(--bg); }
+.vidrio { position: sticky; z-index: 20; background: var(--glass); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); }
+.cabecera { top: 0; border-bottom: 1px solid var(--sep); }
+.cabecera-in { max-width: 1180px; margin: 0 auto; padding: 10px 32px; display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 16px; }
+.cabecera-movil { top: 0; border-bottom: 1px solid var(--sep); padding: 12px 16px; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.pestanas-movil { bottom: 0; border-top: 1px solid var(--sep); display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 4px 4px calc(10px + env(safe-area-inset-bottom)); }
+.pestanas-movil button { border: none; background: none; min-height: 50px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; cursor: pointer; font-size: 11px; font-weight: 600; }
+.contenido { flex: 1; width: 100%; max-width: 1180px; margin: 0 auto; }
+
+.segmentado { display: flex; gap: 2px; padding: 2px; border-radius: 10px; background: var(--fill); }
+.segmentado button { border: none; border-radius: 8px; padding: 6px 16px; font-size: 13px; cursor: pointer; background: transparent; transition: background .2s; }
+.segmentado button[aria-pressed="true"] { background: var(--card); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, .12); }
+
+.columna { display: flex; flex-direction: column; gap: 20px; }
+.encabezado { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.kicker { font-size: 13px; font-weight: 600; color: var(--label2); text-transform: uppercase; letter-spacing: .03em; }
+.titulo { font-size: 34px; font-weight: 700; letter-spacing: -.025em; line-height: 1.15; }
+.pastilla { font-size: 13px; font-weight: 500; color: var(--label2); background: var(--fill); padding: 3px 10px; border-radius: 999px; }
+.navegar { display: flex; gap: 8px; align-items: center; }
+.btn-circ { width: 44px; height: 44px; border-radius: 50%; border: none; background: var(--card); color: var(--accent); font-size: 26px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 0 0 4px; }
+.btn-circ:disabled { opacity: .35; cursor: default; }
+.btn-texto { height: 44px; border-radius: 22px; border: none; background: var(--card); color: var(--accent); font-size: 15px; font-weight: 600; cursor: pointer; padding: 0 18px; }
+
+.tarjeta { background: var(--card); border-radius: 20px; min-width: 0; }
+.celda { background: var(--bg); border-radius: 14px; }
+.barra { position: relative; background: var(--fill); overflow: hidden; }
+.barra > div { position: absolute; top: 0; bottom: 0; }
+.chip { font-size: 12px; color: var(--label2); background: var(--fill); border-radius: 6px; padding: 2px 7px; }
+.bolita { width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid; flex: none; display: inline-block; }
+.leyenda { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 12px; color: var(--label2); padding: 0 4px; }
+.leyenda > span { display: flex; gap: 6px; align-items: center; }
+.clicable { cursor: pointer; transition: background .15s, transform .2s; }
+.dia-mes.clicable:hover { background: var(--fill); }
+.col-semana.clicable:hover { transform: translateY(-1px); }
+.giro { display: inline-block; transition: transform .25s ease; }
+.recortar { overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; }
+
+.esqueleto { background: var(--fill); border-radius: 8px; }
+@keyframes latido { 50% { opacity: .55; } }
+.esqueleto, .cargando .tarjeta { animation: latido 1.6s ease-in-out infinite; }
+
+.rejilla-dia { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (min-width: 980px) { .rejilla-dia { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); } }

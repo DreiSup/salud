@@ -6,9 +6,27 @@ Lo que ya está en `CLAUDE.md`, `docs/modelo-de-datos.md` o la skill `registrar-
 
 ---
 
+## 2026-10-26 · Web: implementación del diseño de Claude Design
+
+**Estado:** hecha en la rama `claude/nice-allen-r5n2vi`, carpeta `web/`. Falta revisarla Ysst, pasarla a `main` y crear el proyecto en Vercel.
+
+- **Diseño:** prototipo de Claude Design (`Alimentación v2`), portado pantalla a pantalla con sus tokens de color, tipografía y medidas. Se quita la barra de «revisión de variantes» del prototipo.
+- **Variantes elegidas** (las que el diseño recomendaba; Ysst aún no ha elegido): resumen del día **«Números»** (cifra grande con barra por bloques, uno por comida) y tendencias **«Barras»**. Las otras («Barras con rango» y «Anillos»; «Línea» y «Margen de error») están en el prototipo y se pueden portar si las pide.
+- **Cambio sobre lo acordado:** ni Tailwind, ni shadcn/ui, ni Recharts. El diseño es CSS propio (tokens tipo Apple) y las gráficas son barras simples con franjas y trama; esas librerías no aportaban nada y añadían dependencias. Next.js 15 con exportación estática y TypeScript.
+- **Datos en el build**, no en el navegador: `web/lib/cargar.ts` lee `datos/` y `pendientes.md` y la página sale ya calculada. Sin backend, sin llamadas a GitHub. La fecha de «hoy» sí se calcula en el navegador (Madrid). La cabecera dice «Datos de las HH:MM» (hora del build).
+- **Una sola verdad para los números:** `web/lib/calculo.ts` es un port de `salud.py` y `web/tests/paridad.test.ts` compara los totales, la cobertura y la banda de error de las kcal de todos los días (41 días el 26/10, todos iguales). La banda de error de la proteína se calcula con el mismo método que la de las kcal (salud.py no la muestra).
+- **Metas:** `datos/metas.csv`, nueva tabla de `salud.py` (comandos `meta` y `metas`, validada). Vigentes **desde el 11/08/2026**, el primer día con datos, para que el historial también tenga colores.
+- **Estados del día:** sin cierre y hoy → «Abierto» (y «te quedan N comidas»); sin cierre y pasado → «Sin cerrar».
+- **Lactosa:** casi ningún alimento tiene el dato. Si una comida lleva un lácteo (alérgeno leche, o nombre de queso, yogur, kéfir…) sin dato de lactosa, se marca «Lácteo · lactosa sin dato» en vez de no decir nada.
+- **Pendientes:** se leen de `pendientes.md` (solo los `- [ ]`). En cada día se muestran los que mencionan esa fecha en formato dd/mm; por eso en `pendientes.md` conviene no escribir fechas dd/mm que no sean de comidas.
+- **URL:** la vista y la fecha van en el hash (`#/dia/2026-10-22`, `#/mes/2026-10`, `#/tendencias/30`), para recargar o compartir sin perderlas.
+- **Vercel:** *Root Directory* `web`, con los archivos de fuera de esa carpeta incluidos en el build (lee `../datos`).
+
+---
+
 ## 2026-10-26 · Web de consulta (`web/`)
 
-**Estado:** decidido el planteamiento; el diseño de Claude Design está pendiente de recibir. No hay código todavía.
+**Estado:** decidido el planteamiento (la implementación está en la entrada de arriba).
 
 ### Qué es
 

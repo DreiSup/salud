@@ -12,18 +12,18 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
 - [x] **Hidratos del aguacate**: llevaban el valor de USDA «by difference», con la fibra incluida. Corregido el 26/10/2026 de 8.53 a 1.83 g. Los HC del 13/08, 27/08, 28/08 y 09/09 bajan entre 4 y 7 g; las kcal no cambian.
 - [ ] **Hidratos de la zanahoria**: mismo error (9.58 g frente a unos 6.78 g). Solo aparece en el lote de albóndigas, cuyos valores ya están calculados, así que corregirla no cambia nada registrado.
   - Probablemente pasa lo mismo con la cebolla (9.3 g) y los pimientos verde (4.64 g) y rojo, que vienen de USDA. Entran en los lotes de carne con pimientos y de lentejas de 09/2026: el efecto es de menos de 1 g de HC por 100 g.
-- [ ] **Valores genéricos sin ficha original** (la sesión del 26/10 no llega a USDA, BEDCA ni OpenFoodFacts): hay que contrastarlos con la ficha de USDA o BEDCA.
+- [ ] **Valores genéricos sin ficha original** (desde las sesiones en la nube no se llega a USDA, BEDCA ni OpenFoodFacts): hay que contrastarlos con la ficha de USDA o BEDCA.
   - `lentejas-secas` (FDC 172420): de memoria. Una réplica web (Triage Method) da los mismos 352 kcal, 24,6 g de proteína y 10,7 g de fibra.
   - `pechuga-pollo-cruda` (FDC 171077) y `arandanos` (FDC 171711): de memoria.
   - `leche-coco-lata` (FDC 170173) y `pata-pollo-asada`: del resumen de una búsqueda web, no de la ficha. Las réplicas no coinciden entre sí en la pata de pollo.
   - `queso-feta`, `pepinillo-encurtido`, `kiwi` y `uvas`: de memoria. El feta no tiene dato de lactosa.
   - `paella-valenciana`: valor genérico de FatSecret (161 kcal por 100 g); las fuentes van de 85 a 175 kcal.
-  - Altas del 26/10 para la libreta de octubre, de memoria (USDA): `manzana-roja`, `almendra-tostada`, `te-negro`, `cafe-solo`, `pepinillo-agridulce`, `costilla-cerdo-cocinada`, `ricotta`, `pechuga-pollo-plancha`.
+  - Altas para la libreta de octubre, de memoria (USDA): `manzana-roja`, `almendra-tostada`, `te-negro`, `cafe-solo`, `pepinillo-agridulce`, `costilla-cerdo-cocinada`, `ricotta`, `pechuga-pollo-plancha`.
   - Estimadas por Claude, sin etiqueta: `kefir`, `chocolate-arandanos-family-cash`, `creatina-monohidrato`, `infusion-manzana-canela`, `pato-conserva`, `crema-cacao`, `proteina-whey-hsn`. Lactosa estimada en el kéfir; sin dato en la proteína.
   - `queso-fresco-batido-consum`: valores de FatSecret (0 g de grasa, como un desnatado), no de la etiqueta. Falta la foto de la etiqueta del natural. `queso-fresco-batido-0` queda sin uso.
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
-- [ ] **Días parciales** de la exportación (solo la comida 1): 15/09. El 05/10 tiene ya la paella de la libreta como comida 2; el 21/10 y el 22/10 se completaron con la libreta.
+- [ ] **Días parciales** de la exportación (solo la comida 1): 15/09.
 - [ ] **Tortilla del 21/10**: la exportación no lleva queso y la libreta dice «con 30 g de ricotta». Se ha dejado la de la exportación: falta que Ysst confirme si se añade la ricotta (unos 52 kcal).
 - [ ] **Diferencias exportación / libreta en el 20/10** (se ha dejado la exportación): comida 2, 220 g de carne Family Cash + 7,5 g de aceite frente a 250 g de la tanda del 18/10; anacardos 80 g frente a 82 g.
 - [ ] **Tortilla del 05/10**: la exportación tiene 40 g de 4 quesos y 7,5 g de aceite; la libreta dice 70 g de 4 quesos (y la tortilla de siempre lleva 20 g de aceite). Se ha dejado la de la exportación: falta que Ysst confirme cuál vale.

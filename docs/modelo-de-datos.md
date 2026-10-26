@@ -33,7 +33,7 @@ alimentos ─┬─ fuentes
 comidas ─── comida_items ─── item_valores
                └── alimentos (id + versión)
 
-dias                          nutrientes_def (diccionario)
+dias    metas                 nutrientes_def (diccionario)
 ```
 
 Formato de todas: UTF-8, separador coma, primera fila de cabecera, decimales con punto, listas separadas por `; `. Campo vacío = no se sabe.
@@ -158,6 +158,10 @@ Los nutrientes **no se copian** al consumo: el item apunta a alimento + versión
 ### `dias.csv`: estado de cada día
 
 `fecha`, `estado` (`completo`, `parcial`, `incompleto`), `notas`. Permite excluir de los análisis los días a medio registrar.
+
+### `metas.csv`: rangos diarios que Ysst quiere ver en la web
+
+`desde`, `nutriente`, `min`, `max`, `notas`. Una fila por nutriente y fecha de cambio; cada día se evalúa con la última fila con `desde` ≤ ese día, así que el historial se conserva. `min` o `max` vacío = sin mínimo o sin tope. Se escribe con `salud.py meta <nutriente> <min|-> <max|-> [--desde FECHA] [--nota TEXTO]` y se consulta con `salud.py metas [fecha]`. No son recomendaciones: son las metas que fija Ysst (y valores de referencia que puede cambiar).
 
 ## 3. Fotos
 
