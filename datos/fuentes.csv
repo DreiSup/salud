@@ -51,3 +51,6 @@ tortilla-trigo-dia,1,etiqueta,etiqueta,si,,https://www.dia.es/panaderia/tortilla
 burger-meat-vacuno-dia,1,etiqueta,etiqueta,si,,https://www.dia.es/carnes/hamburguesas-carne-picada-y-albondigas/p/261239,fotos/burger-meat-vacuno-dia_tabla_2026-10-26.webp,,2026-10-26
 huevo-campero-ml-dia,1,etiqueta,etiqueta,si,,https://www.dia.es/huevos-leche-y-mantequilla/huevos/p/274540,fotos/huevo-campero-ml-dia_tabla_2026-10-26.webp,,2026-10-26
 lote-burritos-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
+lentejas-secas,1,usda,usda,no,"FDC 172420 Lentils, raw (SR Legacy)",,,Valores de SR Legacy tomados sin consulta en línea (sin acceso de red en la sesión del 26/10/2026). HC disponibles = 63.35 por diferencia - 10.7 fibra,2026-10-26
+lote-carne-pimientos-2026-09,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
+lote-lentejas-2026-09,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26

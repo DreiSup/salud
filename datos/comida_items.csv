@@ -127,3 +127,14 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-10-22-1,3,cacahuete-cascara-family-cash,1,90,g,si,tal_cual,,,,Cacahuete cáscara Family Cash (75% de 90 g),
 2026-10-22-1,4,aceite-oliva,1,7.5,g,,tal_cual,,,,Aceite de oliva,
 2026-10-26-1,1,lote-burritos-2026-10,1,1,ud,,cocido,estimado,6,,1 burrito,"1/5 del lote; incertidumbre del cálculo ±50 kcal (carne ±7 %, huevo ±15 %, aceite ±30 %)"
+2026-09-18-1,1,huevo-campero-l,1,4,ud,,tal_cual,estimado,10,plancha,4 huevos camperos,
+2026-09-18-1,2,mozzarella-rallada-carrefour,1,20,g,,tal_cual,estimado,15,,20 g mozzarella rallada,
+2026-09-18-1,3,carne-picada-vacuno-cdc,1,120,g,,tal_cual,estimado,10,plancha,120 g carne picada (crudo),
+2026-09-18-1,4,aceite-oliva,1,20,g,,tal_cual,estimado,30,,20 g aceite,
+2026-09-18-2,1,lote-carne-pimientos-2026-09,1,380,g,,cocido,bascula,15,,380 g comida de carne picada,incertidumbre por la receta nominal
+2026-09-18-2,2,lote-lentejas-2026-09,1,160,g,,cocido,bascula,35,,160 g lentejas,receta nominal
+2026-09-18-2,3,queso-brine-lidl,1,100,g,,escurrido,bascula,5,,100 g queso de bote Lidl,
+2026-09-18-2,4,aguacate,1,90,g,,tal_cual,bascula,2,,90 g aguacate (comestible),
+2026-09-18-3,1,arroz-blanco-cocido,1,300,g,,cocido,bascula,5,,300 g arroz blanco,
+2026-09-18-3,2,aceite-oliva,1,20,g,,tal_cual,estimado,10,,20 g AOVE,
+2026-09-18-3,3,atun-aceite-oliva-carrefour,1,240,g,,escurrido,bascula,5,,240 g atún en aceite (escurrido),marca supuesta

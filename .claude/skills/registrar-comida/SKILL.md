@@ -39,6 +39,7 @@ El modelo de datos completo está en `docs/modelo-de-datos.md`. Solo datos: no v
 ```
 
 - `momento` con la zona horaria que da `ahora` (España: `+01:00` en invierno, `+02:00` en verano).
+- **Libreta** (comidas pasadas apuntadas en papel): `"origen": "libreta"` y sin `momento`. Ysst quiere aproximado: no preguntes hora ni marca; usa lo del catálogo y recetas o tandas nominales, y dilo. El día se cierra con la nota «libreta, aproximado».
 - `unidad`: `g`, `ml` o `ud`. En `ud` se usa el `peso_unidad_g` del alimento, que es bruto (con cáscara), y se aplica solo su `comestible_pct`.
 - `bruto: true` solo con gramos que incluyen cáscara, hueso o piel no comestible.
 - `estado`: si se omite, se toma el del alimento. Si Ysst lo comió en otro estado (crudo frente a cocido, sin escurrir frente a escurrido), no fuerces: usa otro alimento o convierte la cantidad y dilo.

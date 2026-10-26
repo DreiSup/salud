@@ -62,6 +62,7 @@ ESTADO_COMIDA = {"registrada", "anulada"}
 ESTADO_DIA = {"completo", "parcial", "incompleto"}
 SI_NO = {"si", "no"}
 ORIGEN_HISTORICO = "exportacion-2026-10-25"
+ORIGEN_LIBRETA = "libreta"  # pasado de la libreta de papel: aproximado y sin hora
 INCERTIDUMBRE_POR_DEFECTO = 25.0
 ZONA = os.environ.get("SALUD_TZ", "Europe/Madrid")
 
@@ -408,7 +409,7 @@ def validar(db):
                 E(f"comidas {ctx}: momento debe ser AAAA-MM-DDTHH:MM±HH:MM")
             elif c["momento"][:10] != c["fecha"]:
                 E(f"comidas {ctx}: el momento no cae en la fecha de la comida")
-        elif not historico:
+        elif not historico and c["origen"] != ORIGEN_LIBRETA:
             E(f"comidas {ctx}: falta momento")
         if not c["descripcion"]:
             E(f"comidas {ctx}: falta descripcion")
