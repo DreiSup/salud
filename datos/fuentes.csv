@@ -54,3 +54,4 @@ lote-burritos-2026-10,1,calculado,calculado,si,composición y peso cocinado del 
 lentejas-secas,1,usda,usda,no,"FDC 172420 Lentils, raw (SR Legacy)",,,Valores de SR Legacy tomados sin consulta en línea (sin acceso de red en la sesión del 26/10/2026). HC disponibles = 63.35 por diferencia - 10.7 fibra,2026-10-26
 lote-carne-pimientos-2026-09,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
 lote-lentejas-2026-09,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
+entrecot-vacuno,1,estimado,estimado,no,,,,"Valores típicos de entrecot de vacuno crudo con su grasa (lomo, unos 20 g de proteína y 13-14 g de grasa por 100 g). Estimación de Claude sin consulta en línea (sin acceso a BEDCA ni USDA el 26/10/2026)",2026-10-26

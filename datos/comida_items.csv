@@ -138,3 +138,9 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-09-18-3,1,arroz-blanco-cocido,1,300,g,,cocido,bascula,5,,300 g arroz blanco,
 2026-09-18-3,2,aceite-oliva,1,20,g,,tal_cual,estimado,10,,20 g AOVE,
 2026-09-18-3,3,atun-aceite-oliva-carrefour,1,240,g,,escurrido,bascula,5,,240 g atún en aceite (escurrido),marca supuesta
+2026-09-19-1,1,cacahuete-collaret-consum,1,80,g,,tal_cual,bascula,5,,80 g cacahuetes,marca supuesta (la de septiembre)
+2026-09-19-2,1,entrecot-vacuno,1,1,ud,,tal_cual,estimado,30,plancha,1 entrecot mediano (2 dedos de gordo),~300 g en crudo supuesto; sin aceite (no consta)
+2026-09-19-2,2,queso-brine-lidl,1,150,g,,escurrido,bascula,5,,150 g queso del Lidl,
+2026-09-19-3,1,lote-carne-pimientos-2026-09,1,210,g,,cocido,bascula,15,,210 g comida carne,incertidumbre por la receta nominal
+2026-09-19-3,2,arroz-blanco-cocido,1,200,g,,cocido,bascula,5,,200 g arroz,
+2026-09-19-3,3,aguacate,1,100,g,,tal_cual,bascula,2,,100 g aguacate,

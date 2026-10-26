@@ -125,13 +125,13 @@ Una comida es un momento en el que se ingiere algo, incluida una bebida suelta o
 |---|---|---|
 | `comida_id` | sí | `AAAA-MM-DD-N` |
 | `fecha` | sí | Día local |
-| `momento` | sí (no en `libreta` ni en el histórico) | Fecha y hora con zona: `2026-10-26T10:00+01:00` |
+| `momento` | sí | Fecha y hora con zona: `2026-10-26T10:00+01:00` |
 | `descripcion` | sí | «Tortilla de siempre», «Café» |
 | `texto_original` | sí | Lo que dijiste, literal. Permite rehacer cualquier interpretación |
 | `consumido_valor`, `consumido_unidad` | no | Si solo se comió parte de un plato compuesto: gramos (`g`) o `fraccion` |
 | `estado` | sí | `registrada` o `anulada`. Un error se anula, no se borra |
 | `motivo_anulacion` | si anulada | |
-| `origen` | sí | `registro`; `libreta` para lo pasado de la libreta de papel (aproximado, sin `momento`); o `exportacion-2026-10-25` para el histórico |
+| `origen` | sí | `registro`; `libreta` para lo pasado de la libreta de papel (aproximado, con hora nominal); o `exportacion-2026-10-25` para el histórico |
 | `notas` | no | |
 
 ### `comida_items.csv`: lo que se comió

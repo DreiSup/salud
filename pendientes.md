@@ -13,4 +13,5 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
 - [ ] **Hidratos de la zanahoria**: mismo error (9.58 g frente a unos 6.78 g). Solo aparece en el lote de albóndigas, cuyos valores ya están calculados, así que corregirla no cambia nada registrado.
   - Probablemente pasa lo mismo con la cebolla (9.3 g) y los pimientos verde (4.64 g) y rojo, que vienen de USDA. Entran en los lotes de carne con pimientos y de lentejas de 09/2026: el efecto es de menos de 1 g de HC por 100 g.
 - [ ] **Lentejas secas** (`lentejas-secas`): valores de USDA SR Legacy (FDC 172420) puestos sin consultar en línea, porque la sesión del 26/10 no tenía acceso a USDA, BEDCA ni OpenFoodFacts. Hay que contrastarlos.
+- [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** (solo la comida 1): 15/09, 05/10, 21/10 y 22/10.
