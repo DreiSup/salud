@@ -11,12 +11,13 @@ El modelo de datos completo está en `docs/modelo-de-datos.md`. Solo datos: no v
 
 ## Flujo
 
-1. **Fecha y hora reales.** `python scripts/salud.py ahora`. Nunca supongas el día. Si dice «ayer» o «esta mañana», calcúlalo desde ahí.
+0. **Sincroniza** antes de escribir nada: `git pull --rebase origin main`. Ysst registra desde el móvil en sesiones distintas y cada una puede haber añadido comidas.
+1. **Fecha y hora reales.** `python scripts/salud.py ahora`. Da la hora de Madrid aunque la sesión en la nube corra en UTC: usa siempre esa, nunca `date`. Nunca supongas el día. Si dice «ayer» o «esta mañana», calcúlalo desde ahí.
 2. **Busca cada alimento en el catálogo.** `python scripts/salud.py buscar <texto>`. Para ver valores, base y peso por unidad: `python scripts/salud.py alimento <id>`. Las recetas habituales (`tipo: receta`, p. ej. `tortilla-de-siempre`) no se registran como tales: se expanden en sus ingredientes.
 3. **Pregunta antes de calcular**, todo en una sola tanda y solo lo que cambie el resultado (ver «Preguntas que importan»). Incluye siempre la hora si no la ha dicho. Si pide aproximar, aproxima sin preguntar y dilo.
 4. **Da de alta los productos nuevos** (ver «Alta de alimentos»).
 5. **Registra la comida.** Escribe el JSON en `.tmp/` y ejecuta `python scripts/salud.py registrar .tmp/comida.json`. El script devuelve el informe del día: pégalo.
-6. **Commit y push**: `git add datos fotos && git commit -m "comidas: AAAA-MM-DD <descripción>" && git push`.
+6. **Commit y push a `main`**: `git add datos fotos && git commit -m "comidas: AAAA-MM-DD <descripción>" && git push origin HEAD:main`. Los registros van siempre a `main`, sin ramas ni pull requests. Si el push falla porque `main` avanzó, `git pull --rebase origin main`, `validar` y vuelve a empujar. No des la comida por guardada hasta que el push haya funcionado.
 7. Cuando diga que el día está terminado: `python scripts/salud.py cerrar <fecha> completo` (o `parcial`/`incompleto` con una nota).
 
 ## Formato para registrar
@@ -108,7 +109,7 @@ Casos aprendidos:
 
 ### Fotos
 
-Si Ysst tiene una foto de la etiqueta, pídele la ruta del archivo (en Claude Code las imágenes pegadas en el chat no se pueden guardar) y ejecuta:
+Ysst usa esto desde el móvil. Cuando adjunta una foto, el archivo queda en la sesión (normalmente en `/root/.claude/uploads/…`; si no ves la ruta, búscala con `ls -t /root/.claude/uploads/*/ | head`). Léela para sacar los valores y guárdala comprimida:
 
 ```bash
 python scripts/foto.py <ruta-imagen> <id-alimento> <frontal|tabla|ingredientes>

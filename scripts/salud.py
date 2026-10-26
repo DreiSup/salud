@@ -23,10 +23,11 @@ import argparse
 import csv
 import json
 import math
+import os
 import re
 import sys
 import unicodedata
-from datetime import date, datetime
+from datetime import datetime
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -62,6 +63,7 @@ ESTADO_DIA = {"completo", "parcial", "incompleto"}
 SI_NO = {"si", "no"}
 ORIGEN_HISTORICO = "exportacion-2026-10-25"
 INCERTIDUMBRE_POR_DEFECTO = 25.0
+ZONA = os.environ.get("SALUD_TZ", "Europe/Madrid")
 
 RE_ID = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 RE_FECHA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -69,6 +71,19 @@ RE_MOMENTO = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?[+-]\d{2}:\d{2}
 
 
 # ---------------------------------------------------------------- utilidades
+
+def ahora_local():
+    """Hora local de Ysst (Europe/Madrid), aunque la máquina esté en UTC."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo(ZONA))
+    except Exception:
+        return datetime.now().astimezone()
+
+
+def hoy():
+    return ahora_local().date().isoformat()
+
 
 def num(s):
     if s is None:
@@ -622,7 +637,7 @@ def cmd_alta(db, datos, nueva_version=False):
                                                    "ingredientes", "alergenos", "trazas", "notas")})
     fila.update({
         "id": aid, "version": str(version), "tipo": tipo,
-        "vigente_desde": datos.get("vigente_desde") or date.today().isoformat(),
+        "vigente_desde": datos.get("vigente_desde") or hoy(),
         "base_por": datos.get("base_por", "") if tipo != "receta" else "",
         "base_estado": datos.get("base_estado", "") if tipo != "receta" else "",
         "comestible_pct": fmt(datos.get("comestible_pct")),
@@ -640,7 +655,7 @@ def cmd_alta(db, datos, nueva_version=False):
             "alimento_id": aid, "version": str(version), "fuente": f.get("nombre", f.get("tipo", "")),
             "tipo": f.get("tipo", ""), "especifica": "si" if f.get("especifica") else "no",
             "ref": f.get("ref") or "", "url": f.get("url") or "", "foto": f.get("foto") or "",
-            "texto": f.get("texto") or "", "fecha": f.get("fecha") or date.today().isoformat()})
+            "texto": f.get("texto") or "", "fecha": f.get("fecha") or hoy()})
     for i, c in enumerate(datos.get("composicion", []), 1):
         iv = c.get("version") or db.ultima(c.get("alimento", ""))
         db.t["composicion"].append({
@@ -652,7 +667,7 @@ def cmd_alta(db, datos, nueva_version=False):
         nutrientes = calcular_lote(db, datos)
         db.t["fuentes"].append({"alimento_id": aid, "version": str(version), "fuente": "calculado",
                                 "tipo": "calculado", "especifica": "si", "ref": "composición y peso cocinado del lote",
-                                "url": "", "foto": "", "texto": "", "fecha": date.today().isoformat()})
+                                "url": "", "foto": "", "texto": "", "fecha": hoy()})
     defecto = fuentes[0].get("nombre", fuentes[0].get("tipo")) if fuentes else "calculado"
     for k, v in nutrientes.items():
         if not isinstance(v, dict):
@@ -796,8 +811,8 @@ def main(argv=None):
     a = p.parse_args(argv)
 
     if a.cmd == "ahora":
-        ahora = datetime.now().astimezone()
-        print(f"fecha: {ahora.date().isoformat()}\nmomento: {ahora.isoformat(timespec='minutes')}")
+        ahora = ahora_local()
+        print(f"fecha: {ahora.date().isoformat()}\nmomento: {ahora.isoformat(timespec='minutes')}\nzona: {ZONA}")
         return 0
     try:
         db = Base()
@@ -821,7 +836,7 @@ def main(argv=None):
             cmd_cerrar(db, a.fecha, a.estado, " ".join(a.nota))
             print(f"Día {a.fecha}: {a.estado}")
         elif a.cmd == "dia":
-            print(informe_dia(db, a.fecha or date.today().isoformat()))
+            print(informe_dia(db, a.fecha or hoy()))
         elif a.cmd == "resumen":
             print(cmd_resumen(db, a.desde, a.hasta))
         elif a.cmd == "validar":

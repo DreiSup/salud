@@ -10,3 +10,4 @@ Fase de recogida de datos (60-90 días) sin intervenir: no valores ni aconsejes 
 - **Antes de cada commit**: `python scripts/salud.py validar` debe dar 0 errores.
 - **Huecos y datos por confirmar**: `pendientes.md`. Si llega un dato pendiente, corrígelo y táchalo.
 - Los archivos temporales (JSON de entrada) van en `.tmp/`, que no se sube.
+- **Ysst usa esto solo desde el móvil**, en sesiones de Claude Code en la nube. Cada comida se sube a `main` en cuanto se registra (`git pull --rebase origin main` antes, `git push origin HEAD:main` después), sin ramas ni pull requests: la sesión puede cerrarse en cualquier momento y otra sesión tiene que ver los datos. La hora sale de `python scripts/salud.py ahora` (Madrid), nunca de `date`, que en la nube da UTC.

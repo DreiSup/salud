@@ -9,5 +9,6 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
 - [ ] **28/08, comida 3**: falta la empanada de ternera Aloloco, porque nunca se confirmó el peso.
 - [ ] **Etiquetas pendientes**: carne picada 100 % vacuno y queso 4 quesos del Family Cash. El 05/10 y el 20/10 van con valores estimados.
 - [ ] **Atún del 09/09**: está registrado como 70 g «sin escurrir», pero calculado con los valores por 100 g del producto escurrido. Hay que confirmar si se escurrió.
-- [ ] **Hidratos del aguacate y la zanahoria**: llevan el valor de USDA «by difference», que incluye la fibra. El aguacate tiene 8.53 g y deberían ser unos 1.83 g; la zanahoria, 9.58 g frente a unos 6.78 g. Corregir el aguacate cambia los totales históricos del 13/08, 27/08, 28/08 y 09/09. La zanahoria solo aparece en el lote de albóndigas, cuyos valores ya están calculados, así que corregirla no cambia nada registrado. Decidir si se corrige.
+- [x] **Hidratos del aguacate**: llevaban el valor de USDA «by difference», con la fibra incluida. Corregido el 26/10/2026 de 8.53 a 1.83 g. Los HC del 13/08, 27/08, 28/08 y 09/09 bajan entre 4 y 7 g; las kcal no cambian.
+- [ ] **Hidratos de la zanahoria**: mismo error (9.58 g frente a unos 6.78 g). Solo aparece en el lote de albóndigas, cuyos valores ya están calculados, así que corregirla no cambia nada registrado.
 - [ ] **Días parciales** (solo la comida 1): 15/09, 05/10, 21/10 y 22/10.
