@@ -19,7 +19,8 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `queso-feta`, `pepinillo-encurtido`, `kiwi` y `uvas`: de memoria. El feta no tiene dato de lactosa.
   - `paella-valenciana`: valor genérico de FatSecret (161 kcal por 100 g); las fuentes van de 85 a 175 kcal.
   - Altas del 26/10 para la libreta de octubre, de memoria (USDA): `manzana-roja`, `almendra-tostada`, `te-negro`, `cafe-solo`, `pepinillo-agridulce`, `costilla-cerdo-cocinada`, `ricotta`, `pechuga-pollo-plancha`.
-  - Estimadas por Claude, sin etiqueta: `kefir`, `chocolate-arandanos-family-cash`, `creatina-monohidrato`, `infusion-manzana-canela`, `pato-conserva`, `queso-fresco-batido-0` (supuesto 0 %), `crema-cacao`, `proteina-whey-hsn`. Lactosa estimada en kéfir y queso batido; sin dato en la proteína.
+  - Estimadas por Claude, sin etiqueta: `kefir`, `chocolate-arandanos-family-cash`, `creatina-monohidrato`, `infusion-manzana-canela`, `pato-conserva`, `crema-cacao`, `proteina-whey-hsn`. Lactosa estimada en el kéfir; sin dato en la proteína.
+  - `queso-fresco-batido-consum`: valores de FatSecret (0 g de grasa, como un desnatado), no de la etiqueta. Falta la foto de la etiqueta del natural. `queso-fresco-batido-0` queda sin uso.
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** de la exportación (solo la comida 1): 15/09. El 05/10 tiene ya la paella de la libreta como comida 2; el 21/10 y el 22/10 se completaron con la libreta.

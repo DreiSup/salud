@@ -88,3 +88,5 @@ lote-chocolate-casero-2026-10,1,calculado,calculado,si,composición y peso cocin
 lote-lentejas-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
 lote-patata-horno-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
 lote-pollo-curry-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
+queso-fresco-batido-consum,1,web,web,si,,https://www.fatsecret.es/calor%C3%ADas-nutrici%C3%B3n/consum/queso-fresco-batido/100g,,"FatSecret, Consum Queso Fresco Batido, por 100 g: 56 kcal, 0 g grasa, 4 g carbohidratos, 10 g proteína (leído en el resumen de una búsqueda web; base colaborativa, no la etiqueta)",2026-10-26
+queso-fresco-batido-consum,1,estimado,estimado,no,,,,Lactosa estimada igual a los hidratos (en el queso batido casi todo el azúcar es lactosa). Estimación de Claude,2026-10-26

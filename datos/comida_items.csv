@@ -270,7 +270,7 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-10-16-4,2,miel-flores-eco-carrefour,1,10,g,,tal_cual,estimado,10,,10 g miel,
 2026-10-18-1,1,pechuga-pollo-plancha,1,210,g,,cocido,bascula,5,,210 g pechuga de pollo,supuesta cocinada
 2026-10-18-1,2,lote-patata-horno-2026-10,1,205,g,,cocido,bascula,10,,205 g patata al horno,
-2026-10-18-2,1,queso-fresco-batido-0,1,50,g,,tal_cual,bascula,5,,50 g queso fresco batido,supuesto 0 %
+2026-10-18-2,1,queso-fresco-batido-consum,1,50,g,,tal_cual,bascula,5,,50 g queso fresco batido,natural de Consum (confirmado por Ysst)
 2026-10-18-2,2,miel-flores-eco-carrefour,1,10,g,,tal_cual,estimado,10,,10 g miel,
 2026-10-18-2,3,cacahuete-cascara-family-cash,1,50,g,si,tal_cual,bascula,5,,50 g cacahuetes,"supuesto con cáscara (Family Cash), como en los registros de octubre"
 2026-10-19-1,1,cafe-solo,1,1,ud,,preparado,estimado,20,,1 café,"supuesto solo, sin azúcar"
@@ -287,5 +287,5 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-10-21-3,2,lote-carne-calabacin-2026-10,1,220,g,,cocido,bascula,15,,220 g comida picada,
 2026-10-22-2,1,arroz-blanco-cocido,1,200,g,,cocido,bascula,5,,200 g arroz,
 2026-10-22-2,2,lote-pollo-curry-2026-10,1,300,g,,cocido,bascula,30,,300 g pollo al curry (mucha salsa),receta nominal
-2026-10-22-3,1,queso-fresco-batido-0,1,120,g,,tal_cual,bascula,5,,120 g queso fresco batido,supuesto 0 %
+2026-10-22-3,1,queso-fresco-batido-consum,1,120,g,,tal_cual,bascula,5,,120 g queso fresco batido,natural de Consum (confirmado por Ysst)
 2026-10-22-3,2,proteina-whey-hsn,1,30,g,,tal_cual,bascula,5,,1 cacito de proteína HSN (30 g),
