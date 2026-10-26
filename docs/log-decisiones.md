@@ -8,7 +8,7 @@ Lo que ya está en `CLAUDE.md`, `docs/modelo-de-datos.md` o la skill `registrar-
 
 ## 2026-10-26 · Web: implementación del diseño de Claude Design
 
-**Estado:** hecha en la rama `claude/nice-allen-r5n2vi`, carpeta `web/`. Falta revisarla Ysst, pasarla a `main` y crear el proyecto en Vercel.
+**Estado:** en `main` (commit `3d7ffb9`) y publicada en Vercel. Ysst creó el proyecto a mano desde vercel.com/new (Root Directory `web`): el conector de Vercel de las sesiones no identifica su cuenta («User not found»), así que desde aquí no se puede gestionar el proyecto. Cada push a `main` la vuelve a publicar.
 
 - **Diseño:** prototipo de Claude Design (`Alimentación v2`), portado pantalla a pantalla con sus tokens de color, tipografía y medidas. Se quita la barra de «revisión de variantes» del prototipo.
 - **Variantes elegidas** (las que el diseño recomendaba; Ysst aún no ha elegido): resumen del día **«Números»** (cifra grande con barra por bloques, uno por comida) y tendencias **«Barras»**. Las otras («Barras con rango» y «Anillos»; «Línea» y «Margen de error») están en el prototipo y se pueden portar si las pide.
