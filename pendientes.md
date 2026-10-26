@@ -16,6 +16,7 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `lentejas-secas` (FDC 172420): de memoria. Una réplica web (Triage Method) da los mismos 352 kcal, 24,6 g de proteína y 10,7 g de fibra.
   - `pechuga-pollo-cruda` (FDC 171077) y `arandanos` (FDC 171711): de memoria.
   - `leche-coco-lata` (FDC 170173) y `pata-pollo-asada`: del resumen de una búsqueda web, no de la ficha. Las réplicas no coinciden entre sí en la pata de pollo.
-  - Lotes nominales de 09/2026 que dependen de esto: lentejas y pollo al curry.
+  - `queso-feta`, `pepinillo-encurtido` y `kiwi`: de memoria. El feta no tiene dato de lactosa.
+  - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** (solo la comida 1): 15/09, 05/10, 21/10 y 22/10.

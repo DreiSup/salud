@@ -161,3 +161,11 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-09-22-3,1,melon,1,490,g,si,tal_cual,bascula,10,,490 g melón,supuesto pesado con corteza (60 % comestible)
 2026-09-22-3,2,arandanos,1,50,g,,tal_cual,bascula,5,,50 g arándanos,
 2026-09-22-3,3,cacahuete-collaret-consum,1,60,g,,tal_cual,bascula,5,,60 g cacahuetes,marca supuesta
+2026-09-23-1,1,huevo-campero-l,1,4,ud,,tal_cual,estimado,10,plancha,4 huevos camperos,
+2026-09-23-1,2,queso-4quesos-dia,1,30,g,,tal_cual,estimado,15,,30 g 4 quesos Dia,
+2026-09-23-1,3,carne-picada-vacuno-cdc,1,150,g,,tal_cual,estimado,10,plancha,150 g ternera (crudo),
+2026-09-23-1,4,aceite-oliva,1,20,g,,tal_cual,estimado,30,,20 g aceite (lo de siempre),
+2026-09-23-2,1,lote-ensalada-patata-2026-09,1,350,g,,preparado,estimado,35,,ensalada de patatas,cantidad no apuntada: 1/4 de la receta nominal (~350 g)
+2026-09-23-2,2,atun-aceite-oliva-carrefour,1,200,g,,escurrido,bascula,5,,200 g atún,supuesto escurrido; marca supuesta
+2026-09-23-3,1,cacahuete-collaret-consum,1,80,g,,tal_cual,bascula,5,,80 g cacahuetes,marca supuesta
+2026-09-23-3,2,kiwi,1,1,ud,,tal_cual,estimado,15,,1 kiwi,
