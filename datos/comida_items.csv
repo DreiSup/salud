@@ -192,3 +192,18 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-09-30-1,2,mozzarella-rallada-carrefour,1,20,g,,tal_cual,estimado,15,,20 g mozzarella,
 2026-09-30-1,3,carne-picada-vacuno-cdc,1,120,g,,tal_cual,estimado,10,plancha,120 g carne picada (crudo),
 2026-09-30-1,4,aceite-oliva,1,20,g,,tal_cual,estimado,30,,20 g aceite (lo de siempre),
+2026-10-04-1,1,huevo-campero-l,1,4,ud,,tal_cual,estimado,10,plancha,4 huevos camperos,
+2026-10-04-1,2,mozzarella-rallada-carrefour,1,20,g,,tal_cual,estimado,15,,20 g mozzarella,
+2026-10-04-1,3,carne-picada-vacuno-family-cash,1,120,g,,tal_cual,estimado,10,plancha,120 g carne picada (crudo),carne supuesta la de Family Cash en octubre
+2026-10-04-1,4,aceite-oliva,1,20,g,,tal_cual,estimado,30,,20 g aceite (lo de siempre),
+2026-10-04-2,1,lote-carne-pimientos-2026-10,1,240,g,,cocido,bascula,15,,240 g comida carne,
+2026-10-04-2,2,arroz-blanco-cocido,1,150,g,,cocido,bascula,5,,150 g arroz,
+2026-10-04-2,3,aguacate,1,65,g,,tal_cual,bascula,5,,65 g aguacate,
+2026-10-05-2,1,paella-valenciana,1,480,g,,preparado,bascula,30,,480 g paella valenciana con carne,valor genérico por 100 g
+2026-10-06-1,1,huevo-campero-l,1,4,ud,,tal_cual,estimado,10,plancha,4 huevos camperos,
+2026-10-06-1,2,queso-cabra-lidl,1,30,g,,escurrido,estimado,15,,30 g queso de cabra,
+2026-10-06-1,3,carne-picada-vacuno-family-cash,1,120,g,,tal_cual,estimado,10,plancha,120 g carne picada (crudo),carne supuesta la de Family Cash en octubre
+2026-10-06-1,4,aceite-oliva,1,20,g,,tal_cual,estimado,30,,20 g aceite (lo de siempre),
+2026-10-06-2,1,arroz-blanco-cocido,1,180,g,,cocido,bascula,5,,180 g arroz,
+2026-10-06-2,2,lote-carne-pimientos-2026-10,1,360,g,,cocido,bascula,15,,360 g comida carne,
+2026-10-06-3,1,cacahuete-collaret-consum,1,70,g,,tal_cual,bascula,5,,70 g cacahuetes,marca supuesta
