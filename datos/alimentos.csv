@@ -68,3 +68,24 @@ lote-ensalada-patata-2026-09,1,2026-10-26,lote,"Ensalada de patata con pepinillo
 uvas,1,2026-10-26,fresco,Uvas (blancas o negras),,,,,100 g,tal_cual,,,,,,no,usda,,,,
 paella-valenciana,1,2026-10-26,fresco,Paella valenciana con carne (genérica),,,,,100 g,preparado,,,,,,desconocido,,,,,"Plato completo, receta desconocida (pollo, conejo, verduras, arroz). Valor genérico de base colaborativa"
 lote-carne-pimientos-2026-10,1,2026-10-26,lote,Carne picada con cebolla y pimientos (oct 2026),,,,,100 g,cocido,,,,1299.5,,desconocido,,,,,De la libreta (comido el 04/10 y el 06/10). Misma receta supuesta que lote-carne-pimientos-2026-09; tanda nueva porque la de septiembre ya se había terminado. Peso cocinado nominal 1299.5 g. Sin aceite (no consta)
+almendra-tostada,1,2026-10-26,fresco,Almendra tostada,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+cafe-solo,1,2026-10-26,bebida,Café solo (expreso),,,,,100 ml,preparado,,40,1,,,no,usda,,,,Unidad: un café solo de ~40 ml (supuesto). Sin leche ni azúcar (no consta)
+chocolate-arandanos-family-cash,1,2026-10-26,envasado,Chocolate con arándanos (Family Cash),,,Family Cash,,100 g,tal_cual,,,,,,desconocido,,,leche,,Sin etiqueta: no se sabe si es negro o con leche
+costilla-cerdo-cocinada,1,2026-10-26,fresco,Costilla de cerdo cocinada (con su grasa),,,,,100 g,cocido,70,,,,,no,usda,,,,Hueso ~30 % del peso (supuesto). Preparación desconocida
+creatina-monohidrato,1,2026-10-26,suplemento,Creatina monohidrato,,,,,100 g,tal_cual,,,,,,desconocido,,,,,Marca desconocida. 10 g por toma
+crema-cacao,1,2026-10-26,envasado,Crema de cacao para untar (genérica),,,,,100 g,tal_cual,,,,,,desconocido,,,,,Producto exacto desconocido
+infusion-manzana-canela,1,2026-10-26,bebida,Infusión de manzana y canela,,,,,100 ml,preparado,,250,1,,,desconocido,,,,,Unidad: una taza de ~250 ml (supuesto)
+kefir,1,2026-10-26,envasado,Kéfir natural (genérico),,,,,100 g,tal_cual,,,,,,desconocido,,,leche,,Marca desconocida
+manzana-roja,1,2026-10-26,fresco,Manzana roja con piel,,,,,100 g,tal_cual,90,190,,,,no,usda,,,,"Unidad de ~190 g entera (pesada por Ysst), 90 % comestible sin corazón (supuesto)"
+pato-conserva,1,2026-10-26,envasado,"Pato en conserva (confit, genérico)",,,,,100 g,escurrido,,,,,,desconocido,,,,,Producto exacto desconocido
+pechuga-pollo-plancha,1,2026-10-26,fresco,Pechuga de pollo a la plancha (cocinada),,,,,100 g,cocido,,,,,,no,usda,,,,
+pepinillo-agridulce,1,2026-10-26,envasado,Pepinillos agridulces (genéricos),,,,,100 g,escurrido,,15,,,,desconocido,,,,,Unidad: ~15 g (supuesto)
+proteina-whey-hsn,1,2026-10-26,suplemento,"Proteína de suero HSN (Evowhey, genérica)",HSN,,,,100 g,tal_cual,,,,,,desconocido,,,leche,,1 cacito = 30 g
+queso-fresco-batido-0,1,2026-10-26,envasado,Queso fresco batido 0 % (genérico),,,,,100 g,tal_cual,,,,,,desconocido,,,leche,,Supuesto 0 %: no consta si era desnatado o natural (el natural ronda 70-80 kcal)
+ricotta,1,2026-10-26,envasado,Ricotta (genérica),,,,,100 g,tal_cual,,,,,,desconocido,,,leche,,
+te-negro,1,2026-10-26,bebida,Té negro (infusión),,,,,100 ml,preparado,,250,1,,,no,usda,,,,Unidad: una taza de ~250 ml (supuesto)
+lote-carne-calabacin-2026-10,1,2026-10-26,lote,Carne picada con verduras y calabacín (18 oct 2026),,,,,100 g,cocido,,,,1199.5,,desconocido,,,,,"Cantidades de Ysst (libreta, 18/10). Peso cocinado nominal: carne sin pérdida neta + verduras -15 % = 800 + 399.5. Sin aceite (no consta)"
+lote-chocolate-casero-2026-10,1,2026-10-26,lote,"Chocolate casero de crema de cacao, coco y frutas secas (receta nominal, oct 2026)",,,,,100 g,preparado,,20,,600,,desconocido,,,,,Receta nominal: Ysst solo recuerda los ingredientes. Sin merma: 600 g. Trozo nominal de 20 g
+lote-lentejas-2026-10,1,2026-10-26,lote,"Lentejas con verduras (receta nominal, oct 2026)",,,,,100 g,cocido,,,,1200,,desconocido,,,,,Misma receta nominal que lote-lentejas-2026-09. Muy aproximado
+lote-patata-horno-2026-10,1,2026-10-26,lote,Patata al horno (18 oct 2026),,,,,100 g,cocido,,,,856,,no,calculado,,,,"1070 g de patata (libreta, 18/10), supuestos en crudo. Merma nominal al horno -20 % = 856 g. Sin aceite (no consta)"
+lote-pollo-curry-2026-10,1,2026-10-26,lote,"Pollo al curry con leche de coco, con mucha salsa (receta nominal, oct 2026)",,,,,100 g,cocido,,,,758.5,,desconocido,,,,,"Receta nominal como la de septiembre, con 400 g de pollo en vez de 500 g. Peso nominal: pollo -25 %, cebolla -15 %, salsa -15 %, aceite entero = 758.5 g"

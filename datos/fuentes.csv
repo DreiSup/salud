@@ -67,3 +67,24 @@ lote-ensalada-patata-2026-09,1,calculado,calculado,si,composición y peso cocina
 uvas,1,usda,usda,no,"FDC 174683 Grapes, red or green (European type), raw",,,"Valores de USDA SR Legacy puestos de memoria, sin consulta en línea. HC disponibles = 18.1 por diferencia - 0.9 fibra",2026-10-26
 paella-valenciana,1,web,web,no,,https://www.fatsecret.es/calor%C3%ADas-nutrici%C3%B3n/gen%C3%A9rico/paella-valenciana,,"FatSecret, paella valenciana genérica, por 100 g: 161 kcal, 5,03 g grasa, 20,03 g carbohidratos, 8,13 g proteína (leído en el resumen de una búsqueda web; otras fuentes dan 85-175 kcal)",2026-10-26
 lote-carne-pimientos-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
+almendra-tostada,1,usda,usda,no,"Nuts, almonds, dry roasted, without salt added",,,"Valores de USDA SR Legacy puestos de memoria, sin consulta en línea. HC disponibles = 21.01 por diferencia - 10.9 fibra",2026-10-26
+cafe-solo,1,usda,usda,no,"Beverages, coffee, brewed, espresso, restaurant-prepared",,,"Valores de USDA SR Legacy puestos de memoria, sin consulta en línea",2026-10-26
+chocolate-arandanos-family-cash,1,estimado,estimado,no,,,,Valores típicos de una tableta de chocolate con arándanos (unos 500 kcal por 100 g); falta la etiqueta. Estimación de Claude sin consulta en línea,2026-10-26
+costilla-cerdo-cocinada,1,usda,usda,no,"Pork, fresh, spareribs, separable lean and fat, cooked, braised",,,"Valores de USDA SR Legacy puestos de memoria, sin consulta en línea",2026-10-26
+creatina-monohidrato,1,estimado,estimado,no,,,,Creatina monohidrato pura: sin energía declarada en las etiquetas habituales. Estimación de Claude sin consulta en línea,2026-10-26
+crema-cacao,1,estimado,estimado,no,,,,"Valores típicos de crema de cacao con avellanas tipo Nocilla (unos 540 kcal, 57 g de hidratos y 31 g de grasa por 100 g). Estimación de Claude sin consulta en línea",2026-10-26
+infusion-manzana-canela,1,estimado,estimado,no,,,,Infusión de frutas: energía despreciable. Cafeína sin dato (depende de si lleva base de té). Estimación de Claude sin consulta en línea,2026-10-26
+kefir,1,estimado,estimado,no,,,,"Valores típicos de kéfir de leche entera de supermercado español (unos 60-65 kcal, 3,3 g de proteína, 3,5 g de grasa). La lactosa (unos 3 g) es una estimación: la fermentación consume parte. Estimación de Claude sin consulta en línea",2026-10-26
+manzana-roja,1,usda,usda,no,"FDC 171688 Apples, raw, with skin",,,"Valores de USDA SR Legacy puestos de memoria, sin consulta en línea. HC disponibles = 13.81 por diferencia - 2.4 fibra",2026-10-26
+pato-conserva,1,estimado,estimado,no,,,,"Valores típicos de confit de pato en conserva sin la grasa de la lata (unos 250 kcal, 20 g de proteína y 19 g de grasa por 100 g). Estimación de Claude sin consulta en línea",2026-10-26
+pechuga-pollo-plancha,1,usda,usda,no,"Chicken, broilers or fryers, breast, meat only, cooked, roasted",,,"Valores de USDA SR Legacy puestos de memoria, sin consulta en línea",2026-10-26
+pepinillo-agridulce,1,usda,usda,no,"Pickles, cucumber, sweet (includes bread and butter pickles)",,,"Valores de USDA SR Legacy puestos de memoria, sin consulta en línea",2026-10-26
+proteina-whey-hsn,1,estimado,estimado,no,,,,"Valores típicos de un concentrado de suero (unos 390 kcal, 78 g de proteína, 6 g de hidratos y 6 g de grasa por 100 g); sabor y producto exactos desconocidos. Lactosa sin dato (en el concentrado ronda 3-5 g). Estimación de Claude sin consulta en línea",2026-10-26
+queso-fresco-batido-0,1,estimado,estimado,no,,,,"Valores típicos del queso fresco batido 0 % de supermercado español (unos 46 kcal, 8 g de proteína, 3,5 g de hidratos). Lactosa estimada igual a los azúcares. Estimación de Claude sin consulta en línea",2026-10-26
+ricotta,1,usda,usda,no,"Cheese, ricotta, whole milk",,,"Valores de USDA SR Legacy puestos de memoria, sin consulta en línea",2026-10-26
+te-negro,1,usda,usda,no,"Beverages, tea, black, brewed, prepared with tap water",,,"Valores de USDA SR Legacy puestos de memoria, sin consulta en línea",2026-10-26
+lote-carne-calabacin-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
+lote-chocolate-casero-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
+lote-lentejas-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
+lote-patata-horno-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
+lote-pollo-curry-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26
