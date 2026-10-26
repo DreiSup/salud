@@ -1,0 +1,44 @@
+clave,infoods,unidad,imprescindible,nombre,nota
+kcal,ENERC_KCAL,kcal,si,Energía,Los kJ se calculan (× 4.184)
+agua,WATER,g,no,Agua,
+prot,PROCNT,g,si,Proteínas,
+hc,CHOAVL,g,si,Hidratos de carbono disponibles,Sin fibra (criterio UE). USDA da CHOCDF con fibra: restarla
+azucar,SUGAR,g,si,Azúcares,
+azucar_anadido,SUGAD,g,no,Azúcares añadidos,Casi nunca en la etiqueta UE
+almidon,STARCH,g,no,Almidón,
+polialcoholes,POLYL,g,no,Polialcoholes,
+fibra,FIBTG,g,si,Fibra alimentaria,
+grasa,FAT,g,si,Grasas,
+sat,FASAT,g,si,Grasas saturadas,
+mono,FAMS,g,no,Grasas monoinsaturadas,
+poli,FAPU,g,no,Grasas poliinsaturadas,
+trans,FATRN,g,no,Grasas trans,
+omega3_ala,F18D3N3,g,no,Omega-3 ALA,
+omega3_epa,F20D5N3,g,no,Omega-3 EPA,
+omega3_dha,F22D6N3,g,no,Omega-3 DHA,
+omega6,FAPUN6,g,no,Omega-6,
+colesterol,CHOLE,mg,no,Colesterol,
+alcohol,ALC,g,si,Alcohol,7 kcal/g
+sal,NACL,g,si,Sal,La declarada. Si solo hay sodio: sal = sodio × 2.5 / 1000
+sodio,NA,mg,si,Sodio,Si solo hay sal se calcula al sumar: sodio = sal × 400
+potasio,K,mg,si,Potasio,PRAL
+calcio,CA,mg,si,Calcio,PRAL
+fosforo,P,mg,si,Fósforo,PRAL
+magnesio,MG,mg,si,Magnesio,PRAL
+hierro,FE,mg,no,Hierro,
+zinc,ZN,mg,no,Zinc,
+selenio,SE,µg,no,Selenio,
+yodo,ID,µg,no,Yodo,
+vit_a,VITA_RAE,µg,no,Vitamina A,Equivalentes de actividad de retinol
+vit_d,VITD,µg,no,Vitamina D,
+vit_e,VITE,mg,no,Vitamina E,
+vit_k,VITK1,µg,no,Vitamina K,
+vit_c,VITC,mg,no,Vitamina C,
+vit_b1,THIA,mg,no,Tiamina (B1),
+vit_b2,RIBF,mg,no,Riboflavina (B2),
+vit_b3,NIA,mg,no,Niacina (B3),
+vit_b6,VITB6A,mg,no,Vitamina B6,
+folato,FOL,µg,no,Folato,
+vit_b12,VITB12,µg,no,Vitamina B12,
+lactosa,LACS,g,si,Lactosa,En gramos
+cafeina,CAFFN,mg,si,Cafeína,

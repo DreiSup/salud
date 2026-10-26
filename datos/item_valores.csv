@@ -1,0 +1,35 @@
+comida_id,linea,nutriente,valor,fuente
+2026-08-11-3,1,kcal,587,exportación (OpenFoodFacts)
+2026-08-11-3,1,prot,24.375,exportación (OpenFoodFacts)
+2026-08-11-3,1,grasa,49.75,exportación (OpenFoodFacts)
+2026-08-11-3,1,hc,21.25,exportación (OpenFoodFacts)
+2026-08-13-3,2,kcal,587,exportación (OpenFoodFacts)
+2026-08-13-3,2,prot,24.375,exportación (OpenFoodFacts)
+2026-08-13-3,2,grasa,49.75,exportación (OpenFoodFacts)
+2026-08-13-3,2,hc,21.25,exportación (OpenFoodFacts)
+2026-08-14-2,1,kcal,587,exportación (OpenFoodFacts)
+2026-08-14-2,1,prot,24.3733,exportación (OpenFoodFacts)
+2026-08-14-2,1,grasa,49.7467,exportación (OpenFoodFacts)
+2026-08-14-2,1,hc,21.2533,exportación (OpenFoodFacts)
+2026-08-27-3,1,kcal,124.8,exportación
+2026-08-27-3,1,prot,2.88,exportación
+2026-08-27-3,1,grasa,10.4,exportación
+2026-08-27-3,1,hc,5.68,exportación
+2026-09-08-1,4,kcal,587,exportación (OpenFoodFacts)
+2026-09-08-1,4,prot,24.3667,exportación (OpenFoodFacts)
+2026-09-08-1,4,grasa,49.7667,exportación (OpenFoodFacts)
+2026-09-08-1,4,hc,21.2667,exportación (OpenFoodFacts)
+2026-09-09-1,4,kcal,587,exportación (OpenFoodFacts)
+2026-09-09-1,4,prot,24.375,exportación (OpenFoodFacts)
+2026-09-09-1,4,grasa,49.75,exportación (OpenFoodFacts)
+2026-09-09-1,4,hc,21.25,exportación (OpenFoodFacts)
+2026-09-09-3,2,kcal,200,exportación (OpenFoodFacts); valores de producto escurrido aplicados sin escurrir
+2026-09-09-3,2,prot,25,exportación (OpenFoodFacts); valores de producto escurrido aplicados sin escurrir
+2026-09-09-3,2,hc,0,exportación (OpenFoodFacts); valores de producto escurrido aplicados sin escurrir
+2026-09-09-3,2,grasa,10,exportación (OpenFoodFacts); valores de producto escurrido aplicados sin escurrir
+2026-09-09-3,2,sat,1.7,exportación (OpenFoodFacts); valores de producto escurrido aplicados sin escurrir
+2026-09-09-3,2,sal,1.2,exportación (OpenFoodFacts); valores de producto escurrido aplicados sin escurrir
+2026-09-10-1,1,kcal,587,exportación (OpenFoodFacts)
+2026-09-10-1,1,prot,24.3833,exportación (OpenFoodFacts)
+2026-09-10-1,1,grasa,49.75,exportación (OpenFoodFacts)
+2026-09-10-1,1,hc,21.25,exportación (OpenFoodFacts)

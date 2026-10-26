@@ -1,0 +1,50 @@
+id,version,vigente_desde,tipo,nombre,marca,formato,supermercado,ean,base_por,base_estado,comestible_pct,peso_unidad_g,densidad_g_ml,peso_cocinado_g,raciones,gluten,gluten_fuente,ingredientes,alergenos,trazas,notas
+huevo-campero-l,1,,envasado,Huevos camperos Círculo de Calidad (Carrefour),Círculo de Calidad,,Carrefour,,100 g,tal_cual,88,68,,,,no,bedca,,,,Base comestible; sin lactosa ni gluten
+bacon-lonchas-carrefour-sg,1,,envasado,Bacon lonchas Carrefour El Mercado sin gluten 200 g,Carrefour El Mercado,200 g,Carrefour,,100 g,tal_cual,,16.7,,,,no,etiqueta,,,,"Lactosa sí, gluten no"
+mozzarella-rallada-carrefour,1,,envasado,Mozzarella rallada Carrefour 200 g,Carrefour,200 g,Carrefour,,100 g,tal_cual,,,,,,desconocido,,,,,Lactosa sí
+queso-4quesos-dia,1,,envasado,Queso rallado 4 quesos Dia Láctea 200 g,Dia Láctea,200 g,Dia,,100 g,tal_cual,,,,,,desconocido,,,,,Lactosa sí
+carne-picada-vacuno-cdc,1,,envasado,Preparado carne picada vacuno Círculo de Calidad (Carrefour),Círculo de Calidad,,Carrefour,,100 g,tal_cual,,,,,,desconocido,,,,,
+burger-meat-mercadona,1,,envasado,"Burger meat vacuno 82 % (Mercadona, F. Martínez)",F. Martínez,,Mercadona,,100 g,tal_cual,,,,,,no,etiqueta,,,,"Harina de arroz, fibra de guisante, sulfitos E-221; sin gluten"
+cacahuete-collaret-consum,1,,envasado,Cacahuete tostado Collaret (Consum),Collaret,,Consum,,100 g,tal_cual,75,,,,,desconocido,,,,,Con cáscara: 75 % comestible
+cacahuete-cascara-family-cash,1,,envasado,Cacahuete cáscara 2 granos tostado (Family Cash) 3 kg,,3 kg,Family Cash,,100 g,tal_cual,75,,,,,trazas,etiqueta,,,gluten; leche; sésamo; soja; mostaza; frutos de cáscara; sulfitos,"Valores de grano; trazas de gluten, leche, sésamo, soja, mostaza, frutos de cáscara, sulfitos"
+cacahuete-lidl,1,,envasado,Cacahuetes tostados Lidl ~375 g,Lidl,~375 g,Lidl,,100 g,tal_cual,,,,,,desconocido,,,,,Parte comestible
+frankfurt-lidl,1,,envasado,Frankfurt ahumada Lidl 1 kg,Lidl,1 kg,Lidl,,100 g,tal_cual,,100,,,,desconocido,,,,,1 ud ≈ 100 g
+yogur-natural-andros,1,,envasado,Yogur natural Andros La Serna 125 g,Andros La Serna,125 g,,,100 g,tal_cual,,125,,,,desconocido,,,,,Lactosa sí
+yogur-griego-carrefour-extra,1,,envasado,Yogur griego natural Carrefour Extra 6×125 g,Carrefour Extra,6×125 g,Carrefour,,100 g,tal_cual,,125,,,,desconocido,,,,,Lactosa sí
+queso-brine-lidl,1,,envasado,Cheese in Brine Lidl 1800 g,Lidl,1800 g,Lidl,,100 g,escurrido,,,,,,desconocido,,,,,Escurrido; lactosa <0.1 g
+queso-cabra-lidl,1,,envasado,Queso de cabra en salmuera Lidl (lata),Lidl,lata,Lidl,,100 g,escurrido,,,,,,desconocido,,,,,Escurrido
+rulo-cabra,1,,fresco,Rulo de cabra,,,,,100 g,tal_cual,,,,,,desconocido,,,,,Lactosa sí
+atun-aceite-oliva-carrefour,1,,envasado,"Atún claro en aceite de oliva Carrefour, pack 8",Carrefour,pack 8 latas de 70 g,Carrefour,,100 g,escurrido,,,,,,desconocido,,,,,"Lata 70 g, 52 g escurrido"
+tomate-frito-sin-azucar-carrefour,1,,envasado,"Tomate frito sin azúcar, reducido en sal, Carrefour",Carrefour,,Carrefour,,100 g,tal_cual,,,,,,desconocido,,,,,Proteína estimada (web daba 6.0)
+pasas-sultanas-consum,1,,envasado,Pasas sultanas Consum 300 g,Consum,300 g,Consum,,100 g,tal_cual,,,,,,desconocido,,,,,OpenFoodFacts
+ciruela-sin-hueso-consum,1,,envasado,Ciruelas sin hueso Consum 300 g,Consum,300 g,Consum,,100 g,tal_cual,,10,,,,desconocido,,,,,~10 g/ud
+miel-flores-eco-carrefour,1,,envasado,Miel de flores eco Carrefour Bio 500 g,Carrefour Bio,500 g,Carrefour,,100 g,tal_cual,,,,,,desconocido,,,,,Cucharadita ≈ 7 g
+empanada-ternera-aloloco-carrefour,1,,envasado,Empanadas ternera Aloloco (Carrefour) 160 g,Aloloco,160 g,Carrefour,,100 g,tal_cual,,,,,,desconocido,,,,,
+arroz-blanco-cocido,1,,fresco,Arroz blanco cocido,,,,,100 g,cocido,,,,,,desconocido,,,,,
+garbanzos-cocidos-bote,1,,fresco,"Garbanzos cocidos de bote, escurridos",,,,,100 g,escurrido,,,,,,desconocido,,,,,
+aguacate,1,,fresco,Aguacate crudo,,,,,100 g,tal_cual,,,,,,desconocido,,,,,Medio mediano pelado ≈ 60 g
+tomate-cherry,1,,fresco,Tomate cherry,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+tomate,1,,fresco,Tomate,,,,,100 g,tal_cual,,,,,,desconocido,,,,,"Mediano 123 g, grande 182 g"
+lechuga-romana,1,,fresco,Lechuga romana,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+cebolla,1,,fresco,Cebolla,,,,,100 g,tal_cual,,110,,,,desconocido,,,,,Mediana ≈ 110 g
+pimiento-rojo,1,,fresco,Pimiento rojo,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+pimiento-verde,1,,fresco,Pimiento verde,,,,,100 g,tal_cual,,100,,,,desconocido,,,,,Normal ≈ 100 g
+calabacin,1,,fresco,Calabacín,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+patata-cruda,1,,fresco,Patata cruda,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+zanahoria-cruda,1,,fresco,Zanahoria cruda,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+sandia,1,,fresco,Sandía,,,,,100 g,tal_cual,60,,,,,desconocido,,,,,60 % comestible
+melon,1,,fresco,Melón,,,,,100 g,tal_cual,60,,,,,desconocido,,,,,60 % comestible
+datil-deglet-noor,1,,fresco,Dátil seco Deglet Noor,,,,,100 g,tal_cual,,8,,,,desconocido,,,,,~8 g/ud
+queso-fresco-burgos,1,,fresco,Queso fresco tipo Burgos,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+anchoa-aceite,1,,fresco,Anchoas en aceite,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+aceite-oliva,1,,fresco,Aceite de oliva / AOVE,,,,,100 g,tal_cual,,,,,,desconocido,,,,,
+carne-picada-vacuno-family-cash,1,,fresco,Carne picada 100 % vacuno Family Cash (mostrador),,,Family Cash,,100 g,tal_cual,,,,,,desconocido,,,,,Ref. Eroski; rango entre marcas 164-209 kcal. Falta etiqueta; solo usado como estimación
+queso-4quesos-family-cash,1,,envasado,Queso rallado 4 quesos Family Cash,,,Family Cash,,100 g,tal_cual,,,,,,desconocido,,,,,Falta etiqueta; solo usado como estimación
+salsa-soja-trigo,1,,fresco,Salsa de soja (con trigo),,,,,100 g,tal_cual,,,,,,si,usda,,,,Gluten sí; solo usado como estimación
+anacardos-tostados-sin-sal,1,,fresco,Anacardos tostados sin sal,,,,,100 g,tal_cual,,,,,,desconocido,,,,,solo usado como estimación
+platano,1,,fresco,Plátano pelado,,,,,100 g,tal_cual,,118,,,,desconocido,,,,,Mediano pelado ≈ 118 g; solo usado como estimación
+empanada-pollo-thai-carrefour,1,,envasado,Empanada pollo thai Carrefour,Carrefour,,Carrefour,,100 g,tal_cual,,70,,,,desconocido,,,,,Valor nominal; 70 g/ud; solo usado como estimación
+lote-albondigas-2026-08,1,,lote,Albóndigas (ago 2026),,,,,100 g,cocido,,,,,55,desconocido,,,,,Composición: 900 g carne picada vacuno Carrefour + 150 g patata + 70 g zanahoria + 60.75 g huevo + ~30 g aceite absorbido en fritura → 55 ud
+lote-guiso-mercadona-2026-08,1,,lote,Guiso Mercadona (ago 2026),,,,,100 g,cocido,,,,,,desconocido,,,,,Composición: 1 kg carne picada Mercadona + 1 cebolla mediana (~110 g) + 2 pimientos verdes; La carne resultó ser burger meat 82 % (etiqueta 22/10); calculado con ficha estimada casi idéntica
+lote-guiso-carrefour-2026-09,1,,lote,Guiso Carrefour (sept 2026),,,,,100 g,cocido,,,,1183,,desconocido,,,,,Composición: 900 g carne-picada-vacuno-cdc + 100 g pimiento verde + 110 g cebolla + 123 g tomate → 1183 g cocinado nominal
+tortilla-de-siempre,1,,receta,Tortilla de siempre,,,,,,,,,,,,desconocido,,,,,
