@@ -2,14 +2,15 @@
 import { useCallback, useEffect, useState } from "react";
 import { hoyMadrid, sumar } from "@/lib/formato";
 import type { Datos } from "@/lib/tipos";
+import VistaAnio from "./VistaAnio";
 import VistaDia from "./VistaDia";
 import VistaMes from "./VistaMes";
 import VistaMetas from "./VistaMetas";
 import VistaSemana from "./VistaSemana";
 import VistaTendencias from "./VistaTendencias";
 
-export type Vista = "dia" | "semana" | "mes" | "tendencias" | "metas";
-const PESTANAS: [Vista, string][] = [["dia", "Día"], ["semana", "Semana"], ["mes", "Mes"], ["tendencias", "Tendencias"], ["metas", "Metas"]];
+export type Vista = "dia" | "semana" | "mes" | "anio" | "tendencias" | "metas";
+const PESTANAS: [Vista, string][] = [["dia", "Día"], ["semana", "Semana"], ["mes", "Mes"], ["anio", "Año"], ["tendencias", "Tendencias"], ["metas", "Metas"]];
 const RE_FECHA = /^\d{4}-\d{2}-\d{2}$/;
 
 export interface Ctx {
@@ -20,14 +21,15 @@ export interface Ctx {
 }
 
 /** Estado de la vista en la URL (#/dia/2026-10-26) para que recargar o compartir no lo pierda. */
-function leerHash(hoy: string): { vista: Vista; fecha: string; periodo: number } {
+function leerHash(hoy: string): { vista: Vista; fecha: string; periodo: number; anio: string } {
   const [, v, arg] = window.location.hash.split("/");
   const vista = (PESTANAS.find(([id]) => id === v)?.[0] ?? "dia") as Vista;
   let fecha = hoy;
   if (arg && RE_FECHA.test(arg) && arg <= hoy) fecha = arg;
   else if (arg && /^\d{4}-\d{2}$/.test(arg)) fecha = `${arg}-01`;
   const periodo = [7, 30, 90].includes(Number(arg)) ? Number(arg) : 30;
-  return { vista, fecha, periodo };
+  const anio = arg && /^\d{4}$/.test(arg) ? arg : "12m";
+  return { vista, fecha, periodo, anio };
 }
 
 export default function Panel({ datos }: { datos: Datos }) {
@@ -35,6 +37,7 @@ export default function Panel({ datos }: { datos: Datos }) {
   const [vista, setVista] = useState<Vista>("dia");
   const [fecha, setFecha] = useState("");
   const [periodo, setPeriodo] = useState(30);
+  const [anio, setAnio] = useState("12m");
   const [ancho, setAncho] = useState(1200);
 
   useEffect(() => {
@@ -44,6 +47,7 @@ export default function Panel({ datos }: { datos: Datos }) {
     setVista(inicial.vista);
     setFecha(inicial.fecha);
     setPeriodo(inicial.periodo);
+    setAnio(inicial.anio);
     const medir = () => setAncho(window.innerWidth);
     medir();
     window.addEventListener("resize", medir);
@@ -52,6 +56,7 @@ export default function Panel({ datos }: { datos: Datos }) {
       setVista(s.vista);
       setFecha(s.fecha);
       setPeriodo(s.periodo);
+      setAnio(s.anio);
     };
     window.addEventListener("popstate", alVolver);
     return () => {
@@ -62,10 +67,10 @@ export default function Panel({ datos }: { datos: Datos }) {
 
   useEffect(() => {
     if (!hoy) return;
-    const arg = vista === "dia" || vista === "semana" ? fecha : vista === "mes" ? fecha.slice(0, 7) : vista === "tendencias" ? String(periodo) : "";
+    const arg = vista === "dia" || vista === "semana" ? fecha : vista === "mes" ? fecha.slice(0, 7) : vista === "tendencias" ? String(periodo) : vista === "anio" && anio !== "12m" ? anio : "";
     const hash = `#/${vista}${arg ? "/" + arg : ""}`;
     if (window.location.hash !== hash) window.history.replaceState(null, "", hash);
-  }, [hoy, vista, fecha, periodo]);
+  }, [hoy, vista, fecha, periodo, anio]);
 
   const irADia = useCallback((f: string) => {
     setFecha(f);
@@ -123,6 +128,7 @@ export default function Panel({ datos }: { datos: Datos }) {
             const ctx: Ctx = { datos, hoy, movil, irADia };
             if (vista === "semana") return <VistaSemana ctx={ctx} ancla={fecha} setAncla={setFecha} />;
             if (vista === "mes") return <VistaMes ctx={ctx} ancla={fecha} setAncla={setFecha} />;
+            if (vista === "anio") return <VistaAnio ctx={ctx} periodo={anio} setPeriodo={setAnio} />;
             if (vista === "tendencias") return <VistaTendencias ctx={ctx} periodo={periodo} setPeriodo={setPeriodo} />;
             if (vista === "metas") return <VistaMetas ctx={ctx} />;
             return <VistaDia key={fecha} ctx={ctx} fecha={fecha} setFecha={setFecha} />;

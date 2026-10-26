@@ -6,6 +6,16 @@ Lo que ya está en `CLAUDE.md`, `docs/modelo-de-datos.md` o la skill `registrar-
 
 ---
 
+## 2026-10-26 · Web: vista «Año» (mosaico tipo GitHub)
+
+- **Diseño:** prototipo `Alimentación v3` de Claude Design; solo se porta la pestaña nueva «Año» (`web/components/VistaAnio.tsx`). El resto del panel no cambia, salvo lo mínimo para enlazarla: pestaña en `Panel.tsx`, barra de pestañas del móvil a 6 columnas y URL `#/anio` (último año) o `#/anio/2026`.
+- **Color:** selector con las cuatro opciones del encargo (Registro, Energía, Proteína, En meta). Por defecto **Registro**, la que recomendaba el diseño: ahora lo que se construye es el hábito de registrar.
+- **Móvil:** variante recomendada, scroll horizontal anclado en la semana actual, con «lun / mié / vie» fijos a la izquierda. Las otras dos («últimos 6 meses» y «vertical») están en el prototipo por si Ysst las pide.
+- **Días sin cerrar** (sin fila en `dias.csv` y anteriores a hoy): con trama, como los parciales; la leyenda dice «Parcial, sin cerrar o total incompleto». Hoy lleva borde azul esté o no cerrado.
+- **Rachas:** días seguidos con al menos una comida; la actual cuenta desde hoy, o desde ayer si hoy aún no hay nada.
+
+---
+
 ## 2026-10-26 · Web: implementación del diseño de Claude Design
 
 **Estado:** en `main` (commit `3d7ffb9`) y publicada en Vercel. Ysst creó el proyecto a mano desde vercel.com/new (Root Directory `web`): el conector de Vercel de las sesiones no identifica su cuenta («User not found»), así que desde aquí no se puede gestionar el proyecto. Cada push a `main` la vuelve a publicar.
