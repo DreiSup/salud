@@ -47,3 +47,7 @@ empanada-pollo-thai-carrefour,1,estimado,estimado,no,,,,,
 lote-albondigas-2026-08,1,calculado,calculado,si,valores de la exportación del 25/10/2026,,,,
 lote-guiso-mercadona-2026-08,1,calculado,calculado,si,valores de la exportación del 25/10/2026,,,,
 lote-guiso-carrefour-2026-09,1,calculado,calculado,si,valores de la exportación del 25/10/2026,,,,
+tortilla-trigo-dia,1,etiqueta,etiqueta,si,,https://www.dia.es/panaderia/tortillas-de-trigo-y-pitas/p/312939,fotos/tortilla-trigo-dia_tabla_2026-10-26.webp,,2026-10-26
+burger-meat-vacuno-dia,1,etiqueta,etiqueta,si,,https://www.dia.es/carnes/hamburguesas-carne-picada-y-albondigas/p/261239,fotos/burger-meat-vacuno-dia_tabla_2026-10-26.webp,,2026-10-26
+huevo-campero-ml-dia,1,etiqueta,etiqueta,si,,https://www.dia.es/huevos-leche-y-mantequilla/huevos/p/274540,fotos/huevo-campero-ml-dia_tabla_2026-10-26.webp,,2026-10-26
+lote-burritos-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-26

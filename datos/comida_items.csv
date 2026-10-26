@@ -126,3 +126,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-10-22-1,2,huevo-campero-l,1,239.36,g,,tal_cual,,,,Huevo campero L,
 2026-10-22-1,3,cacahuete-cascara-family-cash,1,90,g,si,tal_cual,,,,Cacahuete cáscara Family Cash (75% de 90 g),
 2026-10-22-1,4,aceite-oliva,1,7.5,g,,tal_cual,,,,Aceite de oliva,
+2026-10-26-1,1,lote-burritos-2026-10,1,1,ud,,cocido,estimado,6,,1 burrito,"1/5 del lote; incertidumbre del cálculo ±50 kcal (carne ±7 %, huevo ±15 %, aceite ±30 %)"
