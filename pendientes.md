@@ -23,6 +23,8 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `queso-fresco-batido-consum`: valores de FatSecret (0 g de grasa, como un desnatado), no de la etiqueta. Falta la foto de la etiqueta del natural. `queso-fresco-batido-0` queda sin uso.
   - `ciruela`: de memoria (USDA FDC 169949); hueso del 6 % supuesto.
   - `tomate-frito-casero-family-cash`: aproximado con tomates fritos estilo casero de otras marcas (100 kcal, 6 g de grasa). Falta la foto de la tabla del envase.
+  - `jamon-serrano`: valores típicos de etiqueta, de memoria (241 kcal, 30 g de proteína, 4,8 g de sal).
+  - `lote-lentejas-patata-2026-10`: peso cocinado nominal (1300 g) y verdura sin especificar repartida entre zanahoria y pimiento verde. Si Ysst pesa la olla, corregir.
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** de la exportación (solo la comida 1): 15/09.
