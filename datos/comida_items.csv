@@ -303,3 +303,8 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-10-27-3,3,manzana-roja,1,195,g,si,tal_cual,bascula,2,,,pesada entera
 2026-10-27-3,4,cacahuete-cascara-family-cash,1,50,g,si,tal_cual,bascula,2,,cacahuetes,pesados con cáscara (convención de octubre)
 2026-10-28-1,1,lote-burritos-2026-10,1,1,ud,,cocido,estimado,6,,1 burrito,"1/5 del lote; incertidumbre del cálculo ±50 kcal (carne ±7 %, huevo ±15 %, aceite ±30 %)"
+2026-10-28-2,1,arroz-blanco-cocido,1,170,g,,cocido,bascula,2,,,
+2026-10-28-2,2,atun-aceite-oliva-carrefour,1,190,g,,escurrido,bascula,2,,atún en aceite de oliva escurrido,marca no dicha; se usa el de Carrefour del catálogo
+2026-10-28-2,3,brocoli-cocido,1,63,g,,cocido,bascula,2,,,
+2026-10-28-2,4,anacardos-tostados-sin-sal,1,15,g,,tal_cual,bascula,2,,,
+2026-10-28-2,5,datil-deglet-noor,1,10,ud,,tal_cual,estimado,15,,10 dátiles,

@@ -27,6 +27,7 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `lote-lentejas-patata-2026-10`: peso cocinado nominal (1300 g) y verdura sin especificar repartida entre zanahoria y pimiento verde. Si Ysst pesa la olla, corregir.
   - `pechuga-pavo-92-mercadona`: valores de FatSecret, no de la etiqueta. Falta la foto de la tabla.
   - `queso-fresco-0-mg`: tabla de la etiqueta, pero sin marca (no se ve en la foto). Lactosa estimada igual a los azúcares.
+  - `brocoli-cocido`: de memoria (USDA FDC 169967).
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** de la exportación (solo la comida 1): 15/09.
