@@ -104,3 +104,6 @@ comida_id,fecha,momento,descripcion,texto_original,consumido_valor,consumido_uni
 2026-10-28-1,2026-10-28,2026-10-28T10:00+01:00,"Burrito de carne, huevo y queso","Apunta para hoy, dia 28 un burrito",,,registrada,,registro,
 2026-10-28-2,2026-10-28,2026-10-28T15:44+01:00,"Arroz con atún, brócoli, anacardos y dátiles","170g arroz, 190g atun en aceite de oliva escurrido, 63g brócoli cocido, 15g anacardos, 10 dátiles",,,registrada,,registro,
 2026-10-28-3,2026-10-28,2026-10-28T18:56+01:00,"Manzana, cacahuetes y jamón","Apunta como tercera comida una manzana de 195 gramos, 60 gramos de cacahuete y 30 gramos de jamón, de una pata de jamón del Mercadona.",,,registrada,,registro,
+2026-10-29-1,2026-10-29,2026-10-29T10:00+01:00,"Burrito de carne, huevo y queso",Apunta para hoy 29: 1. Burrito,,,registrada,,registro,
+2026-10-29-2,2026-10-29,2026-10-29T15:30+01:00,Pasta de maíz con brócoli y pechuga de pollo,"2. 390g de una comida hecha con pasta de maiz, brocoli, pechuga de pollo (haz un cálculo estimado, había bastante pechuga)",,,registrada,,registro,
+2026-10-29-3,2026-10-29,2026-10-29T17:11+01:00,"Cacahuetes, mermelada de albaricoque y chocolate casero","2. 90g cacahuetes, 20g mermelada de albaricoque, 35g chocolate casero",,,registrada,,registro,
