@@ -316,3 +316,9 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-10-29-3,1,cacahuete-cascara-family-cash,1,90,g,si,tal_cual,bascula,2,,cacahuetes,pesados con cáscara (convención de octubre)
 2026-10-29-3,2,mermelada-albaricoque,1,20,g,,tal_cual,bascula,2,,,
 2026-10-29-3,3,lote-chocolate-casero-2026-10,1,35,g,,preparado,bascula,2,,chocolate casero,se usa la receta nominal de octubre
+2026-10-30-1,1,lote-burritos-2026-10,1,1,ud,,cocido,estimado,6,,1 burrito,"1/5 del lote; incertidumbre del cálculo ±50 kcal (carne ±7 %, huevo ±15 %, aceite ±30 %)"
+2026-10-30-1,2,platano,1,93,g,,tal_cual,bascula,10,,plátano 143 g con piel,143 g con piel; 65 % comestible supuesto → 93 g pelado
+2026-10-30-1,3,datil-deglet-noor,1,7,ud,,tal_cual,estimado,15,,7 dátiles,
+2026-10-30-2,1,lote-carne-burritos-2026-10,1,156,g,,cocido,bascula,2,,carne picada que sobró del domingo,
+2026-10-30-2,2,lote-lentejas-patata-2026-10,1,236,g,,cocido,bascula,2,,lentejas,
+2026-10-30-2,3,aguacate,1,210,g,,tal_cual,bascula,2,,,pesado sin hueso ni piel

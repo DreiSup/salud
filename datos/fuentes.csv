@@ -101,3 +101,4 @@ brocoli-cocido,1,usda,usda,no,"FDC 169967 Broccoli, cooked, boiled, drained, wit
 pasta-maiz-seca,1,estimado,estimado,no,,,,"Valores típicos de etiquetas de pasta de maíz sin gluten: 357 kcal, 1,5 g grasa (0,3 sat), 78 g HC (0,5 azúcares), 2,5 g fibra, 7 g proteína, 0,01 g sal",2026-10-29
 mermelada-albaricoque,1,estimado,estimado,no,,,,"Valores típicos de etiquetas de mermelada de albaricoque: 250 kcal, 0,1 g grasa, 61 g HC (60 g azúcares), 0,4 g proteína",2026-10-29
 lote-pasta-maiz-pollo-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-29
+lote-carne-burritos-2026-10,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-10-30
