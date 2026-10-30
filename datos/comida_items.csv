@@ -322,3 +322,8 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-10-30-2,1,lote-carne-burritos-2026-10,1,156,g,,cocido,bascula,2,,carne picada que sobró del domingo,
 2026-10-30-2,2,lote-lentejas-patata-2026-10,1,236,g,,cocido,bascula,2,,lentejas,
 2026-10-30-2,3,aguacate,1,210,g,,tal_cual,bascula,2,,,pesado sin hueso ni piel
+2026-10-30-3,1,lote-pasta-maiz-pollo-2026-10,1,113,g,,cocido,bascula,2,,pasta de maíz con brócoli y pollo,
+2026-10-30-3,2,arroz-blanco-cocido,1,200,g,,cocido,bascula,2,,,
+2026-10-30-3,3,atun-aceite-oliva-family-cash,1,92,g,,escurrido,bascula,2,,,escurrido
+2026-10-30-3,4,cacahuete-cascara-family-cash,1,60,g,si,tal_cual,bascula,2,,cacahuetes,pesados con cáscara (convención de octubre)
+2026-10-30-3,5,kefir,1,20,g,,tal_cual,bascula,2,,,

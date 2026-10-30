@@ -30,6 +30,7 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `brocoli-cocido`: de memoria (USDA FDC 169967).
   - Estimadas por Claude, sin etiqueta ni marca: `pasta-maiz-seca` (gluten sin confirmar) y `mermelada-albaricoque`.
   - `lote-pasta-maiz-pollo-2026-10`: receta y peso cocinado nominales (Ysst pidió estimado).
+  - `atun-aceite-oliva-family-cash`: valores típicos (los del de Carrefour), sin etiqueta. Falta la foto de la tabla.
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** de la exportación (solo la comida 1): 15/09.
