@@ -31,6 +31,7 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - Estimadas por Claude, sin etiqueta ni marca: `pasta-maiz-seca` (gluten sin confirmar) y `mermelada-albaricoque`.
   - `lote-pasta-maiz-pollo-2026-10`: receta y peso cocinado nominales (Ysst pidió estimado).
   - `atun-aceite-oliva-family-cash`: proteína de la etiqueta (14 g por 100 g, dicha por Ysst); kcal, grasa y sal siguen siendo típicas y no cuadran con esa proteína (aviso de `validar`). Falta la foto de la tabla.
+  - De memoria (USDA): `salmon-cocinado`, `pollo-asado-con-piel` (peso de medio pollo supuesto: 330 g de carne y piel) y `patatas-fritas`.
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** de la exportación (solo la comida 1): 15/09.
