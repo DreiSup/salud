@@ -335,3 +335,6 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-10-31-2,3,aguacate,1,110,g,,tal_cual,bascula,2,,,
 2026-10-31-3,1,pollo-asado-con-piel,1,330,g,,cocido,estimado,25,,medio pollo a la brasa,medio pollo normal con piel: ~330 g de carne y piel (supuesto)
 2026-10-31-3,2,patatas-fritas,1,200,g,,preparado,estimado,15,,guarnición de patatas fritas,
+2026-11-02-1,1,lote-burritos-2026-11,1,1,ud,,cocido,estimado,5,,burrito,
+2026-11-02-1,2,datil-deglet-noor,1,5,ud,,tal_cual,estimado,15,,5 dátiles,
+2026-11-02-1,3,mandarina,1,1,ud,,tal_cual,estimado,25,,mandarina tamaño normal,"mediana supuesta: 119 g con piel, 88 g pelada"
