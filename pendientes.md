@@ -35,6 +35,8 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `carne-picada-vacuno-family-cash` v2 (desde el 1 de noviembre): grasa del 7 % dicha por Ysst; proteína (21 g) y saturadas estimadas. `queso-4quesos-family-cash` sigue estimado. Faltan las fotos de ambas etiquetas.
   - `lote-burritos-2026-11`: peso cocinado nominal (merma de la carne del 25 % supuesta); no afecta al valor por burrito.
   - `mandarina`: de memoria (USDA FDC 169105); mediana supuesta de 119 g con piel (88 g pelada).
+  - De memoria (USDA): `pera` (mediana de 178 g supuesta) y `crema-cacahuete` (genérica, marca sin indicar).
+  - `yanga-sportswater-cafeina`: cafeína de una web de terceros (17 mg/100 ml), sin dato oficial; el 1 de noviembre se supusieron 500 ml.
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** de la exportación (solo la comida 1): 15/09.
