@@ -348,3 +348,6 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-01-2,5,cacahuete-cascara-family-cash,1,40,g,si,tal_cual,bascula,5,,cacahuetes,supuestos pesados con cáscara (convención)
 2026-11-01-3,1,yanga-sportswater-cafeina,1,250,ml,,preparado,estimado,50,,agua con sabor y cafeína de Basic-Fit,Ysst: bebió la mitad de lo supuesto (500 ml) → 250 ml; hacia las 11:00
 2026-11-01-4,1,cafe-solo,1,0.5,ud,,preparado,estimado,30,,café,"supuesto solo, sin azúcar; Ysst pide la mitad de cafeína → 0,5 café (~20 ml)"
+2026-11-02-2,1,lote-pasta-sg-pollo-2026-11,1,400,g,,cocido,bascula,5,,comida hecha con pasta,
+2026-11-02-2,2,kiwi,1,56,g,si,tal_cual,bascula,5,,kiwi pequeño,56 g pesado con piel; supuesto pelado (88 % comestible)
+2026-11-02-2,3,chocolate-arandanos-family-cash,1,18,g,,tal_cual,bascula,5,,chocolate con arándanos Family Cash,
