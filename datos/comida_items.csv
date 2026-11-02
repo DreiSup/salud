@@ -357,3 +357,5 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-02-3,4,salsa-soja-trigo,1,15,g,,tal_cual,bascula,5,,salsa de soja,añadida después; marca no dicha (supuesta con trigo)
 2026-11-02-3,5,aceite-oliva,1,15,g,,tal_cual,bascula,5,,AOVE,añadido después
 2026-11-02-3,6,garbanzos-cocidos-bote,1,65,g,,escurrido,bascula,5,,garbanzos,añadidos después; supuestos cocidos de bote escurridos
+2026-11-02-3,7,almendra-tostada,1,25,g,,tal_cual,bascula,5,,almendra tostada,añadida después
+2026-11-02-3,8,ciruela,1,270,g,si,tal_cual,estimado,30,,3 ciruelas,3 × 90 g con hueso supuestos (como la ciruela pesada el 26/10)
