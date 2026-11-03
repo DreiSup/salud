@@ -40,7 +40,7 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `carne-picada-pollo-family-cash`: de memoria (USDA pollo picado entero); no se sabe si es de pechuga. Falta etiqueta o preguntar en el mostrador.
   - `pasta-sin-gluten-maiz-arroz`: tabla de la etiqueta, pero sin marca; ingredientes dictados por Ysst. Puede ser la misma que `pasta-maiz-seca` del 29 de octubre (que sigue estimada).
   - `lote-pasta-sg-pollo-2026-11`: peso cocinado nominal (2185 g, no pesado) y sin aceite (no consta). Si Ysst pesa lo que queda o dice el aceite, corregir.
-  - `manzana-verde`: de memoria (USDA FDC 168203).
+  - `manzana-verde`: Ciqual 2025 (manzana genérica, no Granny Smith), copiado de webs que lo citan; la ficha oficial de Ciqual no es accesible desde la nube.
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** de la exportación (solo la comida 1): 15/09.
