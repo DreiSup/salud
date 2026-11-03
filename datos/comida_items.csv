@@ -362,3 +362,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-03-1,1,lote-burritos-2026-11,1,1,ud,,cocido,estimado,5,,burrito,
 2026-11-03-1,2,manzana-verde,1,160,g,si,tal_cual,bascula,2,,manzana verde,pesada entera
 2026-11-03-1,3,datil-deglet-noor,1,4,ud,,tal_cual,estimado,15,,4 dátiles,
+2026-11-03-2,1,mandarina,1,2,ud,,tal_cual,estimado,25,,2 mandarinas,"medianas supuestas: 119 g con piel, 88 g peladas cada una"
