@@ -363,3 +363,9 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-03-1,2,manzana-verde,1,160,g,si,tal_cual,bascula,2,,manzana verde,pesada entera
 2026-11-03-1,3,datil-deglet-noor,1,4,ud,,tal_cual,estimado,15,,4 dátiles,
 2026-11-03-2,1,mandarina,1,2,ud,,tal_cual,estimado,25,,2 mandarinas,"medianas supuestas: 119 g con piel, 88 g peladas cada una"
+2026-11-03-3,1,lote-pasta-sg-pollo-2026-11,1,365,g,,cocido,bascula,5,,comida hecha con pasta y carne picada de pollo,
+2026-11-03-3,2,chocolate-arandanos-family-cash,1,13,g,,tal_cual,bascula,5,,chocolate con arándanos Family Cash,
+2026-11-03-3,3,queso-cottage-milbona-lidl,1,40,g,,tal_cual,bascula,5,,queso cottage del Lidl,
+2026-11-03-3,4,aguacate,1,60,g,,tal_cual,bascula,5,,aguacate,pesado ya sin hueso ni piel
+2026-11-03-3,5,mermelada-arandanos-sin-azucar,1,15,g,,tal_cual,bascula,5,,mermelada de arándanos,
+2026-11-03-3,6,pan-pueblo,1,10,g,,tal_cual,bascula,5,,pan de pueblo,
