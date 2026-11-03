@@ -369,3 +369,5 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-03-3,4,aguacate,1,60,g,,tal_cual,bascula,5,,aguacate,pesado ya sin hueso ni piel
 2026-11-03-3,5,mermelada-arandanos-sin-azucar,1,15,g,,tal_cual,bascula,5,,mermelada de arándanos,
 2026-11-03-3,6,pan-pueblo,1,10,g,,tal_cual,bascula,5,,pan de pueblo,
+2026-11-03-4,1,miel-flores-eco-carrefour,1,15,g,,tal_cual,bascula,5,,miel,marca no dicha; se usa la miel del catálogo (Carrefour Bio). El té de frutos rojos queda pendiente de saber si lleva teína
+2026-11-03-5,1,cafeina-pastilla-100mg,1,1,ud,,tal_cual,envase,0,,cafeína en pastilla,Ysst dijo «100g»: se entiende 100 mg
