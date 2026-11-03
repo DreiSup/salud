@@ -102,3 +102,9 @@ Ysst pasó a mano las comidas de septiembre y octubre que tenía en una libreta 
 
 - Desde estas sesiones **no hay acceso** a USDA, BEDCA, OpenFoodFacts ni a las webs de los supermercados (el proxy los rechaza). `WebSearch` sí funciona; `WebFetch` no.
 - Los valores puestos de memoria o leídos en resúmenes de búsqueda están marcados en la fuente y listados en `pendientes.md` para contrastarlos.
+
+### Tablas europeas antes que USDA (03/11/2026)
+
+- Ysst pide que los alimentos sin etiqueta se den de alta con valores españoles o europeos, no de USDA. Orden: BEDCA → Ciqual (u otra tabla europea) → **avisar a Ysst y esperar** antes de usar USDA, valores de memoria o un estimado.
+- Ciqual va como `tipo: web`, `nombre: ciqual`. Como su web no responde desde la nube, los valores se leen en webs que la citan y se dice así en `texto`.
+- Primer caso: `manzana-verde` pasó de USDA a Ciqual 2025 (13039, manzana con piel). Los alimentos dados de alta antes con USDA se quedan así; están listados en `pendientes.md` por si se quieren cambiar.

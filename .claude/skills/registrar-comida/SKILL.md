@@ -94,13 +94,14 @@ Un producto nuevo se da de alta antes de registrar la comida: `python scripts/sa
 1. `etiqueta`: foto del envase. Es la mejor.
 2. `web`: ficha del súper o del fabricante. Guarda `url` y copia la tabla literal en `texto`.
 3. `bedca`: Base de Datos Española de Composición de Alimentos. Lleva caída desde agosto de 2026; si no responde, dilo y pasa a la siguiente.
-4. `usda`: solo si no hay nada español. Avisa cuando la uses. Guarda en `ref` el FDC ID y la descripción.
-5. `openfoodfacts`: por marca y nombre exacto (`es.openfoodfacts.org`).
-6. `estimado`: último recurso, siempre dicho.
+4. **Otra tabla europea** (Ciqual de la ANSES, la francesa, es la preferida): `tipo: web`, `nombre: ciqual`, con el código y nombre de la ficha en `ref`, la `url` de donde salen los valores y la tabla en `texto`. Si se leen en una web que cita la tabla (Ciqual oficial no responde desde la nube), dilo en `texto`.
+5. `usda`: **solo con permiso de Ysst.** Si no encuentras valores españoles ni europeos, avísale y pregúntale antes de usar USDA, valores de memoria o un estimado. Guarda en `ref` el FDC ID y la descripción.
+6. `openfoodfacts`: por marca y nombre exacto (`es.openfoodfacts.org`).
+7. `estimado`: último recurso, siempre dicho y, en frescos, con el permiso de Ysst del punto 5.
 
 Casos aprendidos:
 
-- **Frescos sin etiqueta** (huevo, fruta, verdura, carne y pescado frescos) están exentos por normativa: usa BEDCA o USDA.
+- **Frescos sin etiqueta** (huevo, fruta, verdura, carne y pescado frescos) están exentos por normativa: usa BEDCA o, si no responde, Ciqual u otra tabla europea. USDA solo con permiso de Ysst.
 - **Webs de Consum** cargan por JavaScript y no se leen: busca en OpenFoodFacts.
 - **Hidratos**: la etiqueta UE da hidratos disponibles (sin fibra). USDA da «carbohydrate by difference», que incluye la fibra: **réstala** antes de guardar.
 - **Sodio y sal**: guarda lo que declare la fuente. El script calcula el sodio desde la sal si falta.
