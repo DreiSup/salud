@@ -385,3 +385,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-04-3,2,chocolate-arandanos-family-cash,1,10,g,,tal_cual,bascula,5,,chocolate con arándanos Family Cash,
 2026-11-04-3,3,crema-cacahuete,1,45,g,,tal_cual,bascula,5,,crema de cacahuete,
 2026-11-04-3,4,kefir,1,20,g,,tal_cual,bascula,15,,kéfir,«unos 20 g»
+2026-11-04-3,5,pechuga-pollo-97-family-cash,1,43,g,,tal_cual,bascula,5,,pechuga de pollo 97 %,valores provisionales (Campofrío Finissimas) hasta tener la etiqueta
