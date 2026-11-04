@@ -372,3 +372,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-03-4,1,miel-flores-eco-carrefour,1,15,g,,tal_cual,bascula,5,,miel,marca no dicha; se usa la miel del catálogo (Carrefour Bio)
 2026-11-03-5,1,cafeina-pastilla-100mg,1,1,ud,,tal_cual,envase,0,,cafeína en pastilla,Ysst dijo «100g»: se entiende 100 mg
 2026-11-03-4,2,infusion-frutos-rojos-hacendado,1,1,ud,,preparado,estimado,20,,té de frutos rojos Hacendado,taza de ~250 ml supuesta
+2026-11-03-6,1,paella-valenciana,1,300,g,,preparado,bascula,5,,paella valenciana,
