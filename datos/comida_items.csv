@@ -373,3 +373,7 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-03-5,1,cafeina-pastilla-100mg,1,1,ud,,tal_cual,envase,0,,cafeína en pastilla,Ysst dijo «100g»: se entiende 100 mg
 2026-11-03-4,2,infusion-frutos-rojos-hacendado,1,1,ud,,preparado,estimado,20,,té de frutos rojos Hacendado,taza de ~250 ml supuesta
 2026-11-03-6,1,paella-valenciana,1,300,g,,preparado,bascula,5,,paella valenciana,
+2026-11-04-1,1,lote-burritos-2026-11,1,1,ud,,cocido,estimado,5,,burrito,
+2026-11-04-1,2,manzana-roja,1,1,ud,,tal_cual,estimado,20,,manzana roja,PROVISIONAL: 190 g entera (unidad del catálogo) hasta que Ysst diga el peso apuntado
+2026-11-04-1,3,cacahuete-cascara-family-cash,1,90,g,si,tal_cual,bascula,5,,cacahuetes,supuestos pesados con cáscara (convención)
+2026-11-04-1,4,mandarina,1,1,ud,,tal_cual,estimado,25,,mandarina,"mediana supuesta: 119 g con piel, 88 g pelada"
