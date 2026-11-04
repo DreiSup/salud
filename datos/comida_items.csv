@@ -379,4 +379,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-04-1,4,mandarina,1,1,ud,,tal_cual,estimado,25,,mandarina,"mediana supuesta: 119 g con piel, 88 g pelada"
 2026-11-04-2,1,lote-pasta-sg-pollo-2026-11,1,410,g,,cocido,bascula,5,,pasta con carne picada de pollo,
 2026-11-04-2,2,queso-cottage-milbona-lidl,1,40,g,,tal_cual,bascula,5,,queso cottage,
-2026-11-04-2,3,queso-feta,1,25,g,,tal_cual,bascula,5,,queso feta,marca no dicha; feta genérico del catálogo
+2026-11-04-2,3,queso-feta-lidl,1,25,g,,tal_cual,bascula,5,,queso feta,feta DOP de Lidl (etiqueta)
