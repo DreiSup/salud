@@ -391,3 +391,5 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-05-1,3,mandarina,1,1,ud,,tal_cual,estimado,25,,mandarina,"mediana supuesta: 119 g con piel, 88 g pelada"
 2026-11-05-2,1,datil-deglet-noor,1,9,ud,,tal_cual,estimado,15,,9 dátiles,
 2026-11-05-3,1,lote-arroz-pato-alcachofa-2026-11,1,410,g,,cocido,bascula,5,,"comida de arroz, alcachofa, jamón y pato",
+2026-11-05-4,1,lote-pasta-sg-pollo-2026-11,1,310,g,,cocido,bascula,5,,pasta,supuesta la tanda de pasta sin gluten con pollo del 2/11
+2026-11-05-4,2,queso-feta-lidl,1,20,g,,tal_cual,bascula,5,,queso feta,supuesto el feta DOP de Lidl
