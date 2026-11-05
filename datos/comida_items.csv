@@ -390,3 +390,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-05-1,2,manzana-verde,1,210,g,si,tal_cual,bascula,2,,manzana verde,pesada entera
 2026-11-05-1,3,mandarina,1,1,ud,,tal_cual,estimado,25,,mandarina,"mediana supuesta: 119 g con piel, 88 g pelada"
 2026-11-05-2,1,datil-deglet-noor,1,9,ud,,tal_cual,estimado,15,,9 dátiles,
+2026-11-05-3,1,lote-arroz-pato-alcachofa-2026-11,1,410,g,,cocido,bascula,5,,"comida de arroz, alcachofa, jamón y pato",
