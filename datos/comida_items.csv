@@ -393,3 +393,18 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-05-3,1,lote-arroz-pato-alcachofa-2026-11,1,410,g,,cocido,bascula,5,,"comida de arroz, alcachofa, jamón y pato",
 2026-11-05-4,1,lote-pasta-sg-pollo-2026-11,1,310,g,,cocido,bascula,5,,pasta,supuesta la tanda de pasta sin gluten con pollo del 2/11
 2026-11-05-4,2,queso-feta-lidl,1,20,g,,tal_cual,bascula,5,,queso feta,supuesto el feta DOP de Lidl
+2026-11-06-1,1,lote-burritos-2026-11,1,1,ud,,cocido,estimado,5,,burrito,
+2026-11-06-1,2,cacahuete-cascara-family-cash,1,100,g,si,tal_cual,bascula,5,,cacahuetes,supuestos pesados con cáscara (convención); hora nominal
+2026-11-06-2,1,tomate,1,280,g,,tal_cual,bascula,5,,tomate,
+2026-11-06-2,2,pechuga-pollo-97-family-cash,1,180,g,,tal_cual,bascula,5,,pechuga de pollo 97 %,
+2026-11-06-2,3,frankfurt-lidl,1,100,g,,tal_cual,bascula,5,,Frankfurt,marca no dicha; supuestas las de Lidl del catálogo
+2026-11-06-2,4,cebolla,1,60,g,,tal_cual,bascula,5,,cebolla,
+2026-11-07-1,1,garbanzos-cocidos-bote,1,73,g,,escurrido,bascula,5,,garbanzos,"supuestos cocidos de bote, escurridos"
+2026-11-07-1,2,atun-aceite-oliva-carrefour,1,52,g,,escurrido,envase,10,,una lata de atún,"supuesta lata Carrefour de 70 g, escurrida (52 g)"
+2026-11-07-1,3,queso-feta-lidl,1,30,g,,tal_cual,bascula,5,,queso feta,
+2026-11-07-1,4,frankfurt-lidl,1,100,g,,tal_cual,bascula,5,,Frankfurt,supuestas las de Lidl del catálogo
+2026-11-07-1,5,pasas-sultanas-consum,1,50,g,,tal_cual,bascula,5,,pasas,marca no dicha; las del catálogo
+2026-11-07-2,1,pollo-asado-con-piel,1,165,g,,cocido,estimado,35,,un cuarto de pollo,aproximado a petición de Ysst: 1/4 de pollo = 165 g de carne y piel (mitad del medio pollo del 31/10)
+2026-11-07-2,2,arroz-blanco-cocido,1,150,g,,cocido,estimado,40,,un poco de arroz basmati,aproximado: 150 g cocido; basmati contado como arroz blanco cocido
+2026-11-08-1,1,cafe-solo,1,1,ud,,preparado,estimado,20,,un café,"supuesto solo, sin azúcar; hora nominal"
+2026-11-08-1,2,cacahuete-cascara-family-cash,1,40,g,si,tal_cual,bascula,5,,cacahuetes,supuestos pesados con cáscara (convención)
