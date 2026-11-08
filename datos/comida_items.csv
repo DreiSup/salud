@@ -408,3 +408,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-07-2,2,arroz-blanco-cocido,1,150,g,,cocido,estimado,40,,un poco de arroz basmati,aproximado: 150 g cocido; basmati contado como arroz blanco cocido
 2026-11-08-1,1,cafe-solo,1,1,ud,,preparado,estimado,20,,un café,"supuesto solo, sin azúcar; hora nominal"
 2026-11-08-1,2,cacahuete-cascara-family-cash,1,40,g,si,tal_cual,bascula,5,,cacahuetes,supuestos pesados con cáscara (convención)
+2026-11-08-1,3,yogur-proteina-stracciatella-lidl,1,120,g,,tal_cual,bascula,5,,yogur de stracciatella con proteína,120 g (dato de Ysst)
