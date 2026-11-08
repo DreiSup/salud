@@ -409,3 +409,6 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-08-1,1,cafe-solo,1,1,ud,,preparado,estimado,20,,un café,"supuesto solo, sin azúcar; hora nominal"
 2026-11-08-1,2,cacahuete-cascara-family-cash,1,40,g,si,tal_cual,bascula,5,,cacahuetes,supuestos pesados con cáscara (convención)
 2026-11-08-1,3,yogur-proteina-stracciatella-lidl,1,120,g,,tal_cual,bascula,5,,yogur de stracciatella con proteína,120 g (dato de Ysst)
+2026-11-08-2,1,merluza-cocinada,1,200,g,,cocido,estimado,15,,merluza,"«unos 200 g»; supuesta cocinada, sin aceite"
+2026-11-08-2,2,patata-horno,1,220,g,,cocido,estimado,15,,patata al horno,«unos 220 g»; sin aceite
+2026-11-08-2,3,mamaliga,1,150,g,,cocido,estimado,15,,mamaliga,«unos 150 g»

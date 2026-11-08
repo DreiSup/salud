@@ -134,3 +134,7 @@ alcachofa-cocida,1,ciqual,web,no,"Ciqual 2013, Artichaut, cuit",https://informat
 lote-arroz-pato-alcachofa-2026-11,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-11-05
 yogur-proteina-stracciatella-lidl,1,etiqueta,etiqueta,si,,,fotos/yogur-proteina-stracciatella-lidl_tabla_2026-11-08.webp,,2026-11-08
 yogur-proteina-stracciatella-lidl,1,estimado,estimado,no,,,,"lactosa ≈ azúcares de la etiqueta (2,5 g)",2026-11-08
+merluza-cocinada,1,web,web,no,,https://www.croq-kilos.com/actus/merluchon-bienfaits-calories-et-utilisation-en-cuisine,,Merlu cuit: environ 20 g de protéines et environ 90 kcal pour 100 g,2026-11-08
+merluza-cocinada,1,estimado,estimado,no,,,,grasa 1 g = (90 - 4·20)/9; hidratos 0,2026-11-08
+patata-horno,1,web,web,no,,https://nutriscan.app/fr/calories-nutrition/potatoes,,"Pomme de terre au four avec peau, por 100 g: ~93 kcal; proteínas 2,5 g; glúcidos 21 g; fibra 2,3 g; azúcares 1,2 g; lípidos 0,1 g. Referencia: Ciqual 2013 sin piel 91,7 kcal (informationsnutritionnelles.fr).",2026-11-08
+mamaliga,1,openfoodfacts,openfoodfacts,no,,https://foodbenchmark.com/products/2000000006854/polenta-cuite-ou-bouillie,,"Polenta cuite ou bouillie, por 100 g: ~85 kcal; lípidos 0,38 g; glúcidos 18,1 g; fibra 1,7 g; proteínas 1,98 g",2026-11-08

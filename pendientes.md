@@ -45,6 +45,9 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `mermelada-arandanos-sin-azucar`: tabla de la etiqueta, pero sin marca ni tienda.
   - `pechuga-pollo-97-family-cash`: provisional con valores de Campofrío Finissimas (FatSecret). Falta la etiqueta o el nombre de la marca («Natur…») en el mostrador de Family Cash.
   - `lote-arroz-pato-alcachofa-2026-11`: «carne de pato» supuesta en conserva (`pato-conserva`, estimado); sin aceite (no consta). `alcachofa-cocida`: Ciqual 2013 vía web.
+  - Aproximaciones pedidas por Ysst (08/11): `merluza-cocinada`, `patata-horno` y `mamaliga`, con webs francesas que no son la tabla Ciqual; sin aceite.
+  - `yogur-proteina-stracciatella-lidl`: tabla de la etiqueta; lactosa estimada.
+  - Pendientes de dato (sin registrar): queso fresco de cabra del 6 de noviembre (65 g) y maíz del 7 de noviembre (70 g).
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** de la exportación (solo la comida 1): 15/09.
