@@ -414,4 +414,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-08-2,3,mamaliga,1,150,g,,cocido,estimado,15,,mamaliga,«unos 150 g»
 2026-11-09-1,1,lote-burritos-2026-11,1,1,ud,,cocido,estimado,5,,burrito,hora nominal
 2026-11-09-1,2,mandarina,1,2,ud,,tal_cual,estimado,25,,2 mandarinas,medianas supuestas
-2026-11-09-2,1,lote-arroz-pato-alcachofa-2026-11,1,330,g,,cocido,bascula,5,,comida hecha de arroz con pato,la tanda del 5/11 pesaba 650 g y se comieron 410 g: 330 g supera lo que quedaba (240 g); pendiente de aclarar con Ysst
+2026-11-09-2,1,lote-arroz-pato-alcachofa-2026-11,1,330,g,,cocido,bascula,5,,comida hecha de arroz con pato,misma olla del 5/11; peso cocinado total 1040 g (quedan 300 g tras esta comida)

@@ -131,10 +131,11 @@ queso-feta-lidl,1,etiqueta,etiqueta,si,,,fotos/queso-feta-lidl_tabla_2026-11-04.
 queso-feta-lidl,1,estimado,estimado,no,,,,"lactosa = azúcares de la etiqueta (0,2 g)",2026-11-04
 pechuga-pollo-97-family-cash,1,web,web,no,,https://www.fatsecret.es/calor%C3%ADas-nutrici%C3%B3n/campofr%C3%ADo/pechuga-de-pollo-finissimas/100g,,"Campofrío pechuga de pollo Finissimas, por 100 g: 106 kcal; grasa 1,8 g; hidratos 0,4 g; proteínas 22 g (FatSecret, datos de usuarios)",2026-11-04
 alcachofa-cocida,1,ciqual,web,no,"Ciqual 2013, Artichaut, cuit",https://informationsnutritionnelles.fr/artichaut-cuit,,"Por 100 g: 43,1 kcal; proteínas 2,9 g; glúcidos 4,84 g, de los cuales azúcares 0,99 g; lípidos 0,227 g; fibra 5,05 g (la web cita Ciqual 2013)",2026-11-05
-lote-arroz-pato-alcachofa-2026-11,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-11-05
 yogur-proteina-stracciatella-lidl,1,etiqueta,etiqueta,si,,,fotos/yogur-proteina-stracciatella-lidl_tabla_2026-11-08.webp,,2026-11-08
 yogur-proteina-stracciatella-lidl,1,estimado,estimado,no,,,,"lactosa ≈ azúcares de la etiqueta (2,5 g)",2026-11-08
 merluza-cocinada,1,web,web,no,,https://www.croq-kilos.com/actus/merluchon-bienfaits-calories-et-utilisation-en-cuisine,,Merlu cuit: environ 20 g de protéines et environ 90 kcal pour 100 g,2026-11-08
 merluza-cocinada,1,estimado,estimado,no,,,,grasa 1 g = (90 - 4·20)/9; hidratos 0,2026-11-08
 patata-horno,1,web,web,no,,https://nutriscan.app/fr/calories-nutrition/potatoes,,"Pomme de terre au four avec peau, por 100 g: ~93 kcal; proteínas 2,5 g; glúcidos 21 g; fibra 2,3 g; azúcares 1,2 g; lípidos 0,1 g. Referencia: Ciqual 2013 sin piel 91,7 kcal (informationsnutritionnelles.fr).",2026-11-08
 mamaliga,1,openfoodfacts,openfoodfacts,no,,https://foodbenchmark.com/products/2000000006854/polenta-cuite-ou-bouillie,,"Polenta cuite ou bouillie, por 100 g: ~85 kcal; lípidos 0,38 g; glúcidos 18,1 g; fibra 1,7 g; proteínas 1,98 g",2026-11-08
+arroz-blanco-crudo,1,web,web,no,,https://www.consumer.es/alimentacion/el-arroz-2.html,,"Arroz blanco (crudo), por 100 g: 354,0 kcal; hidratos 77,0 g; proteínas 7,60 g; grasas 1,70 g",2026-11-09
+lote-arroz-pato-alcachofa-2026-11,1,calculado,calculado,si,composición y peso cocinado del lote,,,,2026-11-09

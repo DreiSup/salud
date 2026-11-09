@@ -44,7 +44,7 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `pan-pueblo`: valores de un pan de campaña francés de supermercado (Casino, vía Fitatu), elegidos por Ysst a falta de BEDCA o Ciqual; gluten sin confirmar.
   - `mermelada-arandanos-sin-azucar`: tabla de la etiqueta, pero sin marca ni tienda.
   - `pechuga-pollo-97-family-cash`: provisional con valores de Campofrío Finissimas (FatSecret). Falta la etiqueta o el nombre de la marca («Natur…») en el mostrador de Family Cash.
-  - `lote-arroz-pato-alcachofa-2026-11`: «carne de pato» supuesta en conserva (`pato-conserva`, estimado); sin aceite (no consta). `alcachofa-cocida`: Ciqual 2013 vía web.
+  - `lote-arroz-pato-alcachofa-2026-11`: pato en conserva (`pato-conserva`, estimado, confirmado por Ysst); ingredientes en crudo, peso cocinado 1040 g dado por Ysst; sin aceite (no consta). `alcachofa-cocida`: Ciqual 2013 vía web. `arroz-blanco-crudo`: tabla española vía Consumer, sin fibra.
   - Aproximaciones pedidas por Ysst (08/11): `merluza-cocinada`, `patata-horno` y `mamaliga`, con webs francesas que no son la tabla Ciqual; sin aceite.
   - `yogur-proteina-stracciatella-lidl`: tabla de la etiqueta; lactosa estimada.
   - Pendientes de dato (sin registrar): queso fresco de cabra del 6 de noviembre (65 g) y maíz del 7 de noviembre (70 g).

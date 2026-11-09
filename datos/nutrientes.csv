@@ -788,10 +788,6 @@ alcachofa-cocida,1,hc,4.84,,ciqual
 alcachofa-cocida,1,azucar,0.99,,ciqual
 alcachofa-cocida,1,grasa,0.227,,ciqual
 alcachofa-cocida,1,fibra,5.05,,ciqual
-lote-arroz-pato-alcachofa-2026-11,1,kcal,170.617,,calculado
-lote-arroz-pato-alcachofa-2026-11,1,prot,11.321,,calculado
-lote-arroz-pato-alcachofa-2026-11,1,hc,13.519,,calculado
-lote-arroz-pato-alcachofa-2026-11,1,grasa,7.57,,calculado
 yogur-proteina-stracciatella-lidl,1,kcal,53,,etiqueta
 yogur-proteina-stracciatella-lidl,1,grasa,0.5,,etiqueta
 yogur-proteina-stracciatella-lidl,1,sat,0.3,,etiqueta
@@ -816,3 +812,11 @@ mamaliga,1,grasa,0.38,,openfoodfacts
 mamaliga,1,hc,18.1,,openfoodfacts
 mamaliga,1,fibra,1.7,,openfoodfacts
 mamaliga,1,prot,1.98,,openfoodfacts
+arroz-blanco-crudo,1,kcal,354,,web
+arroz-blanco-crudo,1,hc,77,,web
+arroz-blanco-crudo,1,prot,7.6,,web
+arroz-blanco-crudo,1,grasa,1.7,,web
+lote-arroz-pato-alcachofa-2026-11,1,kcal,171.251,,calculado
+lote-arroz-pato-alcachofa-2026-11,1,hc,22.584,,calculado
+lote-arroz-pato-alcachofa-2026-11,1,prot,8.489,,calculado
+lote-arroz-pato-alcachofa-2026-11,1,grasa,5.135,,calculado
