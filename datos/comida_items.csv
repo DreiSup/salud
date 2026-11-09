@@ -415,3 +415,6 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-09-1,1,lote-burritos-2026-11,1,1,ud,,cocido,estimado,5,,burrito,hora nominal
 2026-11-09-1,2,mandarina,1,2,ud,,tal_cual,estimado,25,,2 mandarinas,medianas supuestas
 2026-11-09-2,1,lote-arroz-pato-alcachofa-2026-11,1,330,g,,cocido,bascula,5,,comida hecha de arroz con pato,misma olla del 5/11; peso cocinado total 1040 g (quedan 300 g tras esta comida)
+2026-11-09-3,1,yogur-proteina-stracciatella-lidl,1,1,ud,,tal_cual,estimado,10,,un yogur,"supuesto el de stracciatella con proteína de Lidl (125 g), el del 8/11"
+2026-11-09-3,2,proteina-whey-hsn,1,30,g,,tal_cual,estimado,15,,un scoop de proteína,scoop supuesto de 30 g
+2026-11-09-3,3,cacahuete-cascara-family-cash,1,100,g,si,tal_cual,bascula,5,,cacahuetes,supuestos pesados con cáscara (convención)
