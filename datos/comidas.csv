@@ -145,3 +145,5 @@ comida_id,fecha,momento,descripcion,texto_original,consumido_valor,consumido_uni
 2026-11-10-1,2026-11-10,2026-11-10T10:00+01:00,"Burrito integral, cacahuetes y mandarina","1 burrito, 100g cacahuetes, 1 mandarina",,,registrada,,registro,
 2026-11-10-2,2026-11-10,2026-11-10T15:30+01:00,Paella valenciana,300g paella,,,registrada,,registro,
 2026-11-10-3,2026-11-10,2026-11-10T18:14+01:00,Yogur natural con un scoop de proteína y manzana roja,"1yogurt normal +1 scoop de proteina, 1 manzana roja",,,registrada,,registro,
+2026-11-11-1,2026-11-11,2026-11-11T10:00+01:00,"Burrito integral, 2 mandarinas y cacahuetes","Apunta para hoy, día 10, un burrito, 2 mandarinas y 80 gramos de cacahuetes. Eso como primera comida. (Ysst confirma que es el 11/11)",,,registrada,,registro,
+2026-11-11-2,2026-11-11,2026-11-11T18:11+01:00,Paella valenciana,"Como segunda comida, apunta 440 gramos de paella valenciana.",,,registrada,,registro,
