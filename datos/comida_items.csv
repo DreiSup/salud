@@ -435,3 +435,7 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-12-1,2,cacahuete-cascara-family-cash,1,100,g,si,tal_cual,bascula,5,,cacahuetes,supuestos pesados con cáscara (convención)
 2026-11-12-1,3,mandarina,1,2,ud,,tal_cual,estimado,25,,2 mandarinas,medianas supuestas
 2026-11-12-2,1,ciorba-pui-nominal,1,600,g,,preparado,estimado,20,,ciorba,«más o menos unos 600 g» con caldo
+2026-11-12-3,1,tortilla-integral-poco-loco,1,1,ud,,tal_cual,envase,3,,tortilla de los burritos,"61,67 g"
+2026-11-12-3,2,aguacate,1,125,g,,tal_cual,bascula,5,,aguacate,
+2026-11-12-3,3,queso-cottage-milbona-lidl,1,50,g,,tal_cual,bascula,5,,queso cottage,supuesto el Milbona de Lidl
+2026-11-12-3,4,frankfurt-lidl,1,100,g,,tal_cual,bascula,5,,Frankfurt,supuestas las de Lidl del catálogo
