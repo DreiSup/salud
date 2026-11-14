@@ -440,3 +440,9 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-12-3,3,queso-cottage-milbona-lidl,1,50,g,,tal_cual,bascula,5,,queso cottage,supuesto el Milbona de Lidl
 2026-11-12-3,4,frankfurt-lidl,1,100,g,,tal_cual,bascula,5,,Frankfurt,supuestas las de Lidl del catálogo
 2026-11-12-3,5,cacahuete-cascara-family-cash,1,45,g,si,tal_cual,bascula,5,,cacahuetes,añadidos después; supuestos pesados con cáscara (convención)
+2026-11-13-1,1,lote-burritos-2026-11,1,1,ud,,cocido,estimado,5,,burrito,hora nominal
+2026-11-13-1,2,mandarina,1,1,ud,,tal_cual,estimado,25,,mandarina,mediana supuesta
+2026-11-13-1,3,naranja,1,1,ud,,tal_cual,estimado,25,,naranja,"mediana supuesta: 180 g entera, ~131 g pelada"
+2026-11-13-2,1,lote-burritos-2026-11,1,1,ud,,cocido,estimado,5,,burrito,hora nominal; último burrito de la tanda (11/11)
+2026-11-13-3,1,crema-cacahuete,1,35,g,,tal_cual,bascula,5,,crema cacahuete,
+2026-11-13-3,2,platano,1,65,g,,tal_cual,bascula,10,,banana 100 g,"supuesto pesado con piel, como otras veces: 100 g × 65 % → 65 g pelado"
