@@ -447,3 +447,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-13-3,1,crema-cacahuete,1,35,g,,tal_cual,bascula,5,,crema cacahuete,
 2026-11-13-3,2,platano,1,65,g,,tal_cual,bascula,10,,banana 100 g,"supuesto pesado con piel, como otras veces: 100 g × 65 % → 65 g pelado"
 2026-11-14-1,1,lote-pasta-atun-aguacate-2026-11,1,320,g,,preparado,estimado,10,,comida de pasta con atún,«unos 320 g»
+2026-11-13-3,3,pan-integral-avena-sarraceno,1,74,g,,tal_cual,bascula,5,,pan avena,
