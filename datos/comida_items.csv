@@ -465,3 +465,8 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-15-2,2,cebolla,1,40,g,,tal_cual,estimado,30,,verduras varias (cebolla),120 g de verduras repartidos a partes iguales
 2026-11-15-2,3,pimiento-verde,1,40,g,,tal_cual,estimado,30,,verduras varias (pimiento),120 g de verduras repartidos a partes iguales; color no dicho
 2026-11-15-2,4,zanahoria-cruda,1,40,g,,tal_cual,estimado,30,,verduras varias (zanahoria),120 g de verduras repartidos a partes iguales
+2026-11-16-1,1,lote-relleno-burritos-2026-11b,1,1,ud,,cocido,estimado,5,,burrito (relleno),hora nominal
+2026-11-16-1,2,tortilla-avena-51,1,1,ud,,tal_cual,envase,5,,burrito (tortilla),tipo de tortilla no dicho: supuesta de avena
+2026-11-16-2,1,arroz-blanco-cocido,1,200,g,,cocido,bascula,5,,arroz,cocido (convención); hora nominal
+2026-11-16-2,2,atun-aceite-vidi,1,180,g,,tal_cual,bascula,5,,atún con aceite de oliva,"supuesto el atún Vidi con su aceite (sin escurrir), como el 14/11"
+2026-11-16-2,3,aguacate,1,90,g,,tal_cual,bascula,5,,aguacate,
