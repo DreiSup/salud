@@ -461,3 +461,7 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-14-2,7,queso-cheddar-300g,1,44,g,,tal_cual,bascula,5,,queso cheddar,etiqueta recibida el 17/11
 2026-11-15-1,1,pan-integral-avena-sarraceno,1,148,g,,tal_cual,estimado,15,,pan de los 2 sándwiches,"supuesto 2 × 74 g de pan de avena, como el 13 y 14/11; hora nominal"
 2026-11-15-1,2,crema-cacahuete,1,70,g,,tal_cual,estimado,20,,crema de cacahuete,"supuesto 2 × 35 g, como el 13 y 14/11; sin plátano (no dicho)"
+2026-11-15-2,1,solomillo-pavo-cocinado,1,160,g,,cocido,bascula,5,,solomillos de pavo,supuesto peso cocinado; hora nominal
+2026-11-15-2,2,cebolla,1,40,g,,tal_cual,estimado,30,,verduras varias (cebolla),120 g de verduras repartidos a partes iguales
+2026-11-15-2,3,pimiento-verde,1,40,g,,tal_cual,estimado,30,,verduras varias (pimiento),120 g de verduras repartidos a partes iguales; color no dicho
+2026-11-15-2,4,zanahoria-cruda,1,40,g,,tal_cual,estimado,30,,verduras varias (zanahoria),120 g de verduras repartidos a partes iguales
