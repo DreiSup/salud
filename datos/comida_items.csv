@@ -470,3 +470,11 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-16-2,1,arroz-blanco-cocido,1,200,g,,cocido,bascula,5,,arroz,cocido (convención); hora nominal
 2026-11-16-2,2,atun-aceite-vidi,1,180,g,,tal_cual,bascula,5,,atún con aceite de oliva,"supuesto el atún Vidi con su aceite (sin escurrir), como el 14/11"
 2026-11-16-2,3,aguacate,1,90,g,,tal_cual,bascula,5,,aguacate,
+2026-11-17-1,1,lote-relleno-burritos-2026-11b,1,1,ud,,cocido,estimado,5,,burrito (relleno),hora nominal
+2026-11-17-1,2,tortilla-avena-51,1,1,ud,,tal_cual,envase,5,,burrito (tortilla),tipo de tortilla no dicho: supuesta de avena
+2026-11-17-2,1,lote-curry-pavo-2026-11,1,250,g,,cocido,bascula,5,,curry,hora nominal
+2026-11-17-2,2,arroz-blanco-cocido,1,200,g,,cocido,bascula,5,,arroz blanco cocido,
+2026-11-17-3,1,arroz-blanco-cocido,1,50,g,,cocido,bascula,5,,arroz cocido,
+2026-11-17-3,2,lote-curry-pavo-2026-11,1,60,g,,cocido,bascula,5,,curry,
+2026-11-17-3,3,atun-aceite-vidi,1,90,g,,tal_cual,bascula,5,,atún aceite oliva,"supuesto el atún Vidi con su aceite, como el 16/11"
+2026-11-17-3,4,tomate,1,120,g,,tal_cual,bascula,5,,tomate,

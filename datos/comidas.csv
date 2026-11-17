@@ -163,3 +163,6 @@ comida_id,fecha,momento,descripcion,texto_original,consumido_valor,consumido_uni
 2026-11-15-2,2026-11-15,2026-11-15T15:30+01:00,Solomillos de pavo con verduras,"Apunta también 160g de solomillos de pavo y 120g de verduras varias (cebolla, pimiento, zanahoria)",,,registrada,,registro,
 2026-11-16-1,2026-11-16,2026-11-16T10:00+01:00,"Burrito (tanda del 15/11, tortilla de avena)",1 burrito,,,registrada,,registro,
 2026-11-16-2,2026-11-16,2026-11-16T15:30+01:00,Arroz con atún en aceite y aguacate,"200g de arroz, 180g de atún con aceite de oliva, 90g aguacate",,,registrada,,registro,
+2026-11-17-1,2026-11-17,2026-11-17T10:00+01:00,"Burrito (tanda del 15/11, tortilla de avena)",1 burrito,,,registrada,,registro,
+2026-11-17-2,2026-11-17,2026-11-17T15:30+01:00,Curry de pavo con arroz blanco,"250g de curry, 200g de arroz blanco cocido",,,registrada,,registro,
+2026-11-17-3,2026-11-17,2026-11-17T19:14+01:00,"Arroz, curry, atún en aceite y tomate (queso edam pendiente)","90g queso edam, 50g arroz cocido, 60g curry, 90g atun aceite oliva, 120g tomate",,,registrada,,registro,

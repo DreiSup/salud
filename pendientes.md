@@ -51,6 +51,7 @@ Huecos heredados de la exportación del 25/10/2026 (`docs/exportacion-2026-10-25
   - `ciorba-pui-nominal`: receta nominal y fichas de apps rumanas (rango 33-51 kcal/100 g); gluten según el agriado (borș de trigo o limón).
   - `pan-centeno`: Ciqual 2013 vía web, marca no dicha.
   - `lote-curry-pavo-2026-11`: peso cocinado nominal (1062 g) y sin aceite; pavo supuesto en crudo y yogur supuesto Danone. `solomillo-pavo-crudo` y `solomillo-pavo-cocinado`: Ciqual vía web.
+  - Pendiente de dato (sin registrar): queso edam del 17 de noviembre (90 g).
   - Lotes nominales de 09/2026 que dependen de esto: lentejas, pollo al curry y ensalada de patata; y de 10/2026: lentejas, pollo al curry y chocolate casero.
 - [ ] **Entrecot** (`entrecot-vacuno`): valores estimados por Claude (200 kcal, 20 g de proteína y 13,5 g de grasa por 100 g en crudo) y peso supuesto de 300 g por pieza. Hay que contrastarlos con BEDCA o USDA.
 - [ ] **Días parciales** de la exportación (solo la comida 1): 15/09.
