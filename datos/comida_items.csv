@@ -458,3 +458,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-14-3,2,crema-cacahuete,1,70,g,,tal_cual,estimado,10,,crema de cacahuete,"2 × 35 g, como el del 13/11"
 2026-11-14-3,3,platano,1,130,g,,tal_cual,estimado,15,,banana,"2 × 100 g con piel (65 g pelado), como el del 13/11"
 2026-11-14-3,4,cacahuete-cascara-family-cash,1,50,g,si,tal_cual,bascula,5,,cacahuetes,supuestos pesados con cáscara (convención)
+2026-11-14-2,7,queso-cheddar-300g,1,44,g,,tal_cual,bascula,5,,queso cheddar,etiqueta recibida el 17/11
