@@ -478,3 +478,4 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-17-3,2,lote-curry-pavo-2026-11,1,60,g,,cocido,bascula,5,,curry,
 2026-11-17-3,3,atun-aceite-vidi,1,90,g,,tal_cual,bascula,5,,atún aceite oliva,"supuesto el atún Vidi con su aceite, como el 16/11"
 2026-11-17-3,4,tomate,1,120,g,,tal_cual,bascula,5,,tomate,
+2026-11-17-3,5,queso-edam-corona,1,90,g,,tal_cual,bascula,5,,queso edam,Corona de Mercadona (etiqueta)
