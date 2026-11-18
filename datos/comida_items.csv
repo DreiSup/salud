@@ -466,12 +466,14 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-15-2,3,pimiento-verde,1,40,g,,tal_cual,estimado,30,,verduras varias (pimiento),120 g de verduras repartidos a partes iguales; color no dicho
 2026-11-15-2,4,zanahoria-cruda,1,40,g,,tal_cual,estimado,30,,verduras varias (zanahoria),120 g de verduras repartidos a partes iguales
 2026-11-16-1,1,lote-relleno-burritos-2026-11b,1,1,ud,,cocido,estimado,5,,burrito (relleno),hora nominal
-2026-11-16-1,2,tortilla-avena-51,1,1,ud,,tal_cual,envase,5,,burrito (tortilla),tipo de tortilla no dicho: supuesta de avena
+2026-11-16-1,2,tortilla-avena-51,1,0.5,ud,,tal_cual,envase,5,,burrito (tortilla),Ysst pide la media entre tortilla de avena y de trigo (6 y 6 en la tanda)
+2026-11-16-1,3,tortilla-trigo-6x60,1,0.5,ud,,tal_cual,envase,5,,burrito (tortilla),Ysst pide la media entre tortilla de avena y de trigo (6 y 6 en la tanda)
 2026-11-16-2,1,arroz-blanco-cocido,1,200,g,,cocido,bascula,5,,arroz,cocido (convención); hora nominal
 2026-11-16-2,2,atun-aceite-vidi,1,180,g,,tal_cual,bascula,5,,atún con aceite de oliva,"supuesto el atún Vidi con su aceite (sin escurrir), como el 14/11"
 2026-11-16-2,3,aguacate,1,90,g,,tal_cual,bascula,5,,aguacate,
 2026-11-17-1,1,lote-relleno-burritos-2026-11b,1,1,ud,,cocido,estimado,5,,burrito (relleno),hora nominal
-2026-11-17-1,2,tortilla-avena-51,1,1,ud,,tal_cual,envase,5,,burrito (tortilla),tipo de tortilla no dicho: supuesta de avena
+2026-11-17-1,2,tortilla-avena-51,1,0.5,ud,,tal_cual,envase,5,,burrito (tortilla),Ysst pide la media entre tortilla de avena y de trigo (6 y 6 en la tanda)
+2026-11-17-1,3,tortilla-trigo-6x60,1,0.5,ud,,tal_cual,envase,5,,burrito (tortilla),Ysst pide la media entre tortilla de avena y de trigo (6 y 6 en la tanda)
 2026-11-17-2,1,lote-curry-pavo-2026-11,1,250,g,,cocido,bascula,5,,curry,hora nominal
 2026-11-17-2,2,arroz-blanco-cocido,1,200,g,,cocido,bascula,5,,arroz blanco cocido,
 2026-11-17-3,1,arroz-blanco-cocido,1,50,g,,cocido,bascula,5,,arroz cocido,
@@ -479,3 +481,13 @@ comida_id,linea,alimento_id,alimento_version,cantidad,unidad,bruto,estado,origen
 2026-11-17-3,3,atun-aceite-vidi,1,90,g,,tal_cual,bascula,5,,atún aceite oliva,"supuesto el atún Vidi con su aceite, como el 16/11"
 2026-11-17-3,4,tomate,1,120,g,,tal_cual,bascula,5,,tomate,
 2026-11-17-3,5,queso-edam-corona,1,90,g,,tal_cual,bascula,5,,queso edam,Corona de Mercadona (etiqueta)
+2026-11-18-1,1,lote-relleno-burritos-2026-11b,1,1,ud,,cocido,estimado,5,,burrito (relleno),hora nominal
+2026-11-18-1,2,tortilla-avena-51,1,0.5,ud,,tal_cual,envase,5,,"burrito (tortilla, media)",Ysst pide la media entre tortilla de avena y de trigo
+2026-11-18-1,3,tortilla-trigo-6x60,1,0.5,ud,,tal_cual,envase,5,,"burrito (tortilla, media)",Ysst pide la media entre tortilla de avena y de trigo
+2026-11-18-1,4,infusion-manzana-canela,1,1,ud,,preparado,estimado,20,,té de manzana y canela,
+2026-11-18-2,1,solomillo-pavo-cocinado,1,160,g,,cocido,estimado,15,,comida con solomillo de pavo (pavo),280 g en la proporción del 15/11 (160 pavo : 120 verdura); hora nominal
+2026-11-18-2,2,cebolla,1,40,g,,tal_cual,estimado,30,,verduras (cebolla),
+2026-11-18-2,3,pimiento-verde,1,40,g,,tal_cual,estimado,30,,verduras (pimiento),
+2026-11-18-2,4,zanahoria-cruda,1,40,g,,tal_cual,estimado,30,,verduras (zanahoria),
+2026-11-18-2,5,arroz-blanco-cocido,1,150,g,,cocido,bascula,5,,arroz blanco,
+2026-11-18-2,6,atun-aceite-vidi,1,80,g,,tal_cual,bascula,5,,atún en oliva,"supuesto el atún Vidi con su aceite, como el 16 y 17/11"
